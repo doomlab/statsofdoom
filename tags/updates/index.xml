@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>updates on StatsTools.com</title>
+    <link>https://statstools.com/tags/updates/</link>
+    <description>Recent content in updates on StatsTools.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <managingEditor>buchananlab@gmail.com (statstools.com)</managingEditor>
+    <webMaster>buchananlab@gmail.com (statstools.com)</webMaster>
+    <lastBuildDate>Sun, 16 Feb 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://statstools.com/tags/updates/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>New Site</title>
+      <link>https://statstools.com/post/new-site/</link>
+      <pubDate>Sun, 16 Feb 2020 00:00:00 +0000</pubDate>
+      <author>buchananlab@gmail.com (statstools.com)</author>
+      <guid>https://statstools.com/post/new-site/</guid>
+      <description>Check out the new website! Pages are coming soon with lots of updated materials. I have started a new github site where all the materials for courses will appear, to make it easier for you to find everything you need.
+I have provided entire courses for you to take yourself, use for your classroom, etc. If you are an instructor and want to check out the answer keys, please drop me a line by using the email icon at the bottom of the screen.</description>
+    </item>
+    
+  </channel>
+</rss>
