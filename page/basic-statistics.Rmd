@@ -1,0 +1,131 @@
+---
+comments: false
+---
+
+## Basic Statistics
+
+**Course description**: Principles and methods of statistics used in psychology; understanding and interpreting psychological data. Typically covers descriptive statistics, hypothesis testing, z-tests, t-tests, ANOVA, correlation, regression, and chi-square analyses. 
+
+**Course Schedule for a 15-week Fall/Spring Semester:** The following table provides a proposed 15-week schedule for a fall or spring semester. Materials follow the Nolan and Heinzen _Statistics for the Behavioral Sciences_; however, course materials are also provided from the Aron, Aron, and Coups _Statistics for Psychology_. Video links from the YouTube channel are attached to match course materials. 
+
+**Download all materials at our OSF page: [https://osf.io/e3d9w/.](https://osf.io/e3d9w/)** 
+
+```{r echo = F, message = F}
+library(rio)
+library(kableExtra)
+library(dplyr)
+page <- "basics"
+
+yt_data <- import(paste0(here::here(), "/no_sync/youtube_updated.xlsx"))
+
+yt_data <- subset(yt_data, page == page)
+
+
+```
+
+### SPSS & VassarStats
+
+```{r echo = F, results = 'asis'}
+kable(yt_data %>% 
+        filter(program == "SPSS" | program == "na") %>% 
+        filter(order != "extra") %>% 
+        arrange(-desc(order)) %>% 
+        select(section, title, link, materials, person, year_taught),
+      col.names = c("Section", "Title", "Link", "Materials", "Person", "Year Taught")) %>% 
+  kable_styling(bootstrap_options = c("hover"), font_size = 13)
+```
+
+#### Extra Videos
+
+<details>
+
+  <summary>
+  Click to see video list.
+  </summary>
+
+```{r echo = F, results = 'asis'}
+kable(yt_data %>% 
+        filter(program == "SPSS" | program == "na") %>% 
+        filter(order == "extra") %>% 
+        arrange(-desc(order)) %>% 
+        select(section, title, link, materials, person, year_taught),
+      col.names = c("Section", "Title", "Link", "Materials", "Person", "Year Taught")) %>% 
+  kable_styling(bootstrap_options = c("hover"), font_size = 13)
+```
+
+</details>
+
+### *R* 
+
+```{r echo = F, results = 'asis'}
+kable(yt_data %>% 
+        filter(program == "R" | program == "na") %>% 
+        filter(order != "extra") %>% 
+        arrange(-desc(order)) %>% 
+        select(section, title, link, materials, person, year_taught),
+      col.names = c("Section", "Title", "Link", "Materials", "Person", "Year Taught")) %>% 
+  kable_styling(bootstrap_options = c("hover"), font_size = 13)
+```
+
+#### Extra Videos
+
+<details>
+
+  <summary>
+  Click to see video list.
+  </summary>
+
+```{r echo = F, results = 'asis'}
+kable(yt_data %>% 
+        filter(program == "R" | program == "na") %>% 
+        filter(order == "extra") %>% 
+        arrange(-desc(order)) %>% 
+        select(section, title, link, materials, person, year_taught),
+      col.names = c("Section", "Title", "Link", "Materials", "Person", "Year Taught")) %>% 
+  kable_styling(bootstrap_options = c("hover"), font_size = 13)
+```
+
+</details>
+
+### JASP & Excel
+
+```{r echo = F, results = 'asis'}
+kable(yt_data %>% 
+        filter(program == "R" | program == "na") %>% 
+        filter(order != "extra") %>% 
+        arrange(-desc(order)) %>% 
+        select(section, title, link, materials, person, year_taught),
+      col.names = c("Section", "Title", "Link", "Materials", "Person", "Year Taught")) %>% 
+  kable_styling(bootstrap_options = c("hover"), font_size = 13)
+```
+
+#### Extra Videos
+
+<details>
+
+  <summary>
+  Click to see video list.
+  </summary>
+
+```{r echo = F, results = 'asis'}
+kable(yt_data %>% 
+        filter(program == "R" | program == "na") %>% 
+        filter(order == "extra") %>% 
+        arrange(-desc(order)) %>% 
+        select(section, title, link, materials, person, year_taught),
+      col.names = c("Section", "Title", "Link", "Materials", "Person", "Year Taught")) %>% 
+  kable_styling(bootstrap_options = c("hover"), font_size = 13)
+```
+
+</details>
+
+
+
+
+Topic, SPSS, R, JASP/Excel, VassarStats Introduction to Software, [Example 1`](https://youtu.be/wINHrk3O-mE), [R Studio & Commands](https://youtu.be/x6Jr8ycI8ds) <br>[Missing Data & Packages](https://youtu.be/-fcwWTIeiOo) <br>[Object Types](https://youtu.be/ZjQkg_kKg_A) <br>[Functions](https://youtu.be/nzEiQ6injPY) <br> [Subsetting](https://youtu.be/Z7hSlBpDOvs), [Example 1+](https://youtu.be/MjGFUuRMWFE) Introduction to Statistics, , [Lecture 1](https://youtu.be/UyQ_3rVakVM) , , Frequency Distributions, [Example 1](https://youtu.be/dcMco91DGGs), [Lecture 1](https://youtu.be/fz5FBfL4w9U), , Graphs, [Histograms & Frequency Polygons](https://youtu.be/RlV0pskLFjI)<br>[Bar Graphs](https://youtu.be/VviHazDzXxI) <br> [Line Graphs](https://youtu.be/0xsE6EzF_vg) <br> [Scatterplots](https://youtu.be/VBTTJXT5_LM), [Lecture 1](https://youtu.be/7av2gG-DzRs) <br> [Lecture 2](https://youtu.be/EGHM_s--34o), , Central Tendency, [Example 1](https://youtu.be/U81ZnsY8xZ4) <br> [Example 2`](https://youtu.be/QbyzAv3nDR4), [Lecture 1](https://youtu.be/vtO4oNFvEIs)<br>[Lecture 2](https://youtu.be/_1WrUUljiDg), [Example 1+](https://youtu.be/aF8B0LWt7xY), Exam 1, , [Lecture 1](https://youtu.be/MVJua_6ZF48), , Sampling & Probability, , [Lecture 1](https://youtu.be/4fZ0Is7jQCI)<br>[Lecture 2](https://youtu.be/UITPqp568SU), , Z-Scores, , [Lecture 1](https://youtu.be/VzGoEgXvL-M)<br>[Lecture 2](https://youtu.be/cfl441A17Dk)<br> [Example 1](https://youtu.be/pQcnTXwTZjs), , Hypothesis Testing, [Example 1](https://youtu.be/HOL5DGhgQgE), [Lecture 1](https://youtu.be/K6gFhPS_dKk)<br>[Lecture 2](https://youtu.be/tWieSZMih6Q), , Confidence Intervals <br> Effect Size <br> Power, , [Lecture 1](https://youtu.be/dzAtUtrH2vY)<br>[Lecture 2](https://youtu.be/eDYn9oSP1H0), , Exam 2, [Lecture 1](https://youtu.be/-OkDkkINAdE), [Lecture 1](https://youtu.be/-OkDkkINAdE), , Single Sample t, [Example 1](https://youtu.be/1KSbJGv46OU) <br> [Example 2](https://youtu.be/mzItzBcqXW8), [Lecture 1](https://youtu.be/5Inf6v_elxw)<br>[Lecture 2](https://youtu.be/CC7Y3tZnFgc)<br>[Example 1](https://youtu.be/bJ-8AxitiQg), [Example 1`](https://youtu.be/kqeoKsZl4CU), Paired Sample t, [Example 1](https://youtu.be/-ZV8mByTBiQ) <br> [Example 2](https://youtu.be/snfUeEw5X7k), [Lecture 1](https://youtu.be/qxvG6Kb6Ti0)<br>[Lecture 2](https://youtu.be/Rv1FDnlCGH8)<br>[Example 1](https://youtu.be/m0lc94cUFI0), [Example 1^](https://youtu.be/PHbAsAq5T50) <br> [Example 2`](https://youtu.be/KbxAXp-tPrI), [Example 1^](https://youtu.be/4LUziom9EKo) Independent t, [Example 1](https://youtu.be/1Xcwnkx2K1M) <br> [Example 2](https://youtu.be/-h3l4H3rJfI), [Lecture 1](https://youtu.be/Hub9xie0MYw)<br>[Lecture 2](https://youtu.be/nB-RRr0cAfI)<br>[Example 1](https://youtu.be/0-kJIj2_Rc4), [Example 1^](https://youtu.be/PHbAsAq5T50)<br> [Example 2`](https://youtu.be/n1tCgCMzkzA), [Example 1^](https://youtu.be/4LUziom9EKo) ANOVA, [Example 1](https://youtu.be/7jOHVKyivVY) <br> [Example 2](https://youtu.be/EA6pmXkyqp8), [Lecture 1](https://youtu.be/3RpN985-W00)<br>[Lecture 2](https://youtu.be/F-OffO0w0u8)<br>[Lecture 3](https://youtu.be/JFpTMAPqTNg)<br>[Example 1](https://youtu.be/GifF4Y-gxgI), , Exam 3, [Lecture 1](https://youtu.be/Gyn8gpTyECI), [Lecture 1](https://youtu.be/NfMd3q_5Sa0), , Correlation, [Example 1](https://youtu.be/kz2zRg22cbc) <br> [Example 2](https://youtu.be/P0xfQppzYFo), [Lecture 1](https://youtu.be/dtUt69CTDAE)<br>[Lecture 2](https://youtu.be/NxbNe1Bxbrw)<br>[Example 1](https://youtu.be/hbRFEmjAMyI), [Example 1+](https://youtu.be/ytyMV0hsx6w), [Example 1^](https://youtu.be/jsNxmVlxjtw) Regression, [Example 1](https://youtu.be/OHo8Kk2insM) <br> [Example 2](https://youtu.be/Hh3EbnV_nYk), [Lecture 1](https://youtu.be/G3fpl2iP4D8)<br>[Lecture 2](https://youtu.be/v_WH7mjJqOI)<br>[Example 1](https://youtu.be/UBaAFVzKd9c),[ Example 1+](https://youtu.be/axqBUp_gKGY), Chi-Square, , , , [Example 1](https://youtu.be/wdkGcDuJ36Q) <br> [Example 2](https://youtu.be/g1n5Krz8VJA) Exam 4, [Lecture 1](https://youtu.be/3OWsGo2UoiA), [Lecture 1](https://youtu.be/FjFX6EXT6PY), , [/table] All videos are recorded by Dr. B unless noted: 
+
+  * ^ = Rebecca Knoph
+  * ` = Katherine Miller
+  * \+ = Emily Klug
+  * * = Jessica Willis
+**Additional Videos:** [table nl="<br>" width="450"]Topic, Video, Created by Research Methods Theory, [Example 1](https://youtu.be/2xys_2ybtzQ), Cody Conner Research Methods: Hypotheses, [Example 1](https://youtu.be/_aPN_23-Xxc), Cody Conner Random Sampling & Assignment, [Example 1](https://youtu.be/nieFqKeQE1k), Cody Conner Z-Scores & Descriptive Statistics, [Example 1](https://youtu.be/2_aqBXcki6Q) <br> [Example 2](https://youtu.be/AUHwZ3m6HZ4), Michael Mizer Standard Deviation, [Example 1](https://youtu.be/S3wvT5Mb21w), Michael Mizer Reliability Analysis in SPSS, [Example 1](https://youtu.be/4GqKVjOpMnU), Katherine Miller Random Sampling & Assignment, [Example 1](https://youtu.be/nieFqKeQE1k), Cody Conner Z-tests & Statistical Power, [Example 1](https://youtu.be/o-E-vgbOkuI), Emily Klug [/table]
