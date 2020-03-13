@@ -1,0 +1,72 @@
+---
+title: Real Updates, Patreon, New Videos
+author: Erin M. Buchanan
+date: '2020-03-13'
+slug: real-updates-patreon-new-videos
+categories: []
+tags:
+  - updates
+type: ''
+subtitle: ''
+image: ''
+---
+
+Hi everybody! I am working over the next several days to update the website, youtube videos, and generally make things easier to find. Many years ago, a friend bought the statstools.com website and has graciously hosted it for us over the years. I finally convinced him that I should probably be in charge of handling that, especially because it isn't free! 
+
+I transferred the site to my services, and it has given me trouble ever since. I use GitHub pages to host these sites, which I greatly appreciate GH providing that service. However, when I set up statstools.com, something went awry. Many of you couldn't see the website because the certificate wouldn't issue, thus, showing you a scary warning about internet security. Because of this problem, I also couldn't host the website at https, proving a secure connection. I've asked the help forum (nothing useful), GitHub's help twitter (no response), GitHub's contact us page (no response) ... 
+
+I thought to do one more test before switching to a paid domain hosting service. I realized that statisticsofdoom.com was available ... and I *might* be partial to owning such a website name. I bought the domain and *literally* clicked the same setup for the GitHub page as I did before. **It was working in five minutes**. I still don't know what the malfunction is on the other site, but I am going with the new domain, and so now, when you go to statstools.com, it will redirect you here to DOOM!
+
+As for the individual pages, I've added more under the Learn tab on the top right menu. This website now supports all kinds of statistics, coding, and modeling, along with my course materials from other courses for people to use. I am also creating a github repository of the course materials, to link to them for easier access to know exactly what materials go with each video. I have left the materials on OSF in case people have directly linked to them, but I will say that github allows me to link directly to folders, while OSF does not.
+
+Coming soon on each page, you can find the following kind of tables:
+
+```{r echo = F, message = F}
+library(rio)
+library(kableExtra)
+library(dplyr)
+page <- "basics"
+
+yt_data <- import(paste0(here::here(), "/no_sync/youtube_updated.xlsx"))
+
+yt_data <- subset(yt_data, page == page)
+```
+
+### JASP
+
+```{r echo = F, results = 'asis', warning = F}
+kable(yt_data %>% 
+        filter(program == "JASP" | program == "na") %>% 
+        filter(order != "extra") %>% 
+        arrange(-desc(as.numeric(order))) %>%
+        select(section, title, link, materials, person, year_taught),
+      col.names = c("Section", "Title", "Link", "Materials", "Person", "Year Taught")) %>% 
+  kable_styling(bootstrap_options = c("hover"), font_size = 13)
+```
+
+#### Extra Videos
+
+<details>
+
+  <summary>
+  Click to see video list.
+  </summary>
+
+```{r echo = F, results = 'asis', warning = F}
+kable(yt_data %>% 
+        filter(program == "JASP" | program == "na") %>% 
+        filter(order == "extra") %>% 
+        arrange(desc(section)) %>% 
+        select(section, title, link, materials, person, year_taught),
+      col.names = c("Section", "Title", "Link", "Materials", "Person", "Year Taught")) %>% 
+  kable_styling(bootstrap_options = c("hover"), font_size = 13)
+```
+
+</details>
+
+In each section, you will find the materials split by (usually) the program used within the course. Then, you'll find a table of the course order - mainly, you would use this information if you want to follow along and watch the videos in order for "taking" the class OR if you need to find a specific, most up to date, topic. A section below that will contain extra videos covering the same or more topics. Often the extras are things that aren't required for the course but may help you develop knowledge further or are older versions of the same videos that were updated with new information. Each video is tagged with the section of the course (and chapter number for specific books), the title of the youtube video, the video link, materials link (if avaliable), who is talking the video, and the year taught (to help you gauge how old some of this stuff might be - many things don't change, but sometimes they do). 
+
+I am working on making these tables, building the github repo with materials, and linking everything together, including fixing the youtube descriptions in which the links are truncated (ugh). I have over 500 videos, so I appreciate your patience while I try to make this happen. 
+
+A note: I do make a small amount of money on the ads from the youtube videos. I have also created a Patreon page for the DOOM: https://www.patreon.com/statisticsofdoom - I don't expect you to contribute, but if you feel like it, you can. I support open access to knowledge, so materials that are posted on Patreon are then open on youtube after a short delay. Thank you everybody that's watched, clicked, or shared my videos. 
+
