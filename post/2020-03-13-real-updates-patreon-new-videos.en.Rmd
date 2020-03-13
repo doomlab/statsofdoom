@@ -70,3 +70,5 @@ I am working on making these tables, building the github repo with materials, an
 
 A note: I do make a small amount of money on the ads from the youtube videos. I have also created a Patreon page for the DOOM: https://www.patreon.com/statisticsofdoom - I don't expect you to contribute, but if you feel like it, you can. I support open access to knowledge, so materials that are posted on Patreon are then open on youtube after a short delay. Thank you everybody that's watched, clicked, or shared my videos. 
 
+P.S. statstools.com may take a few days to start redirectly properly, as the interwebs get clogged sometimes. 
+
