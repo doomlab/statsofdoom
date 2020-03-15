@@ -1,21 +1,21 @@
 ---
 comments: false
-pagetitle: 'Open Science'
+pagetitle: 'Mediation - Mediation'
 ---
 
-## Open Science
+## Mediation - Moderation 
 
-**Page description:** Tutorials on various packages for _R Markdown_ and reproducible analyses. 
+You've come to the right place to learn mediation and moderation! This page serves to include the links for the videos from my YouTube Channel that include PROCESS v 2, PROCESS v 3, JASP, and R videos. 
 
-- **Cite**: Buchanan, E. M. (2020, March 15). Reproducible Analyses. https://doi.org/10.17605/OSF.IO/8TVMC 
-- **OSF Page**: https://osf.io/8tvmc/
-- **GitHub Page**: https://github.com/doomlab/statsofdoom-files/tree/master/open_science
+- **Cite**: Buchanan, E. M. (2020, March 15). Mediation - Moderation Examples. https://doi.org/10.17605/OSF.IO/NS6JZ  
+- **OSF Page**: https://osf.io/ns6jz/
+- **GitHub Page**: https://github.com/doomlab/MeMoBootR
 
 ```{r echo = F, message = F}
 library(rio)
 library(kableExtra)
 library(dplyr)
-page <- "open"
+page <- "med_mod"
 
 yt_data <- import(paste0(here::here(), "/no_sync/youtube_updated.xlsx"))
 

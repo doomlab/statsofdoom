@@ -55,7 +55,8 @@ Course Schedule for a 15-week Fall/Spring Semester: The following table provides
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>buchananlab@gmail.com (statstools.com)</author>
       <guid>/page/human-language-modeling/</guid>
-      <description>Human Language Modeling Coming soon!</description>
+      <description>Human Language Modeling Course description: This course is an introduction to computational methods in empirical linguistic analysis and natural language processing focusing on building models of human language. Topics include vector space and topics models, similarity, deep learning, and information theory network models. This course will explore how to apply statistical techniques to language with a focus on R and Python programming skills.
+ Cite: Buchanan, E. M. (2020, March 15).</description>
     </item>
     
     <item>
@@ -64,7 +65,9 @@ Course Schedule for a 15-week Fall/Spring Semester: The following table provides
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>buchananlab@gmail.com (statstools.com)</author>
       <guid>/page/med-mod/</guid>
-      <description>Mediation and Moderation Coming soon!</description>
+      <description>Mediation - Moderation You’ve come to the right place to learn mediation and moderation! This page serves to include the links for the videos from my YouTube Channel that include PROCESS v 2, PROCESS v 3, JASP, and R videos.
+ Cite: Buchanan, E. M. (2020, March 15). Mediation - Moderation Examples. https://doi.org/10.17605/OSF.IO/NS6JZ
+ OSF Page: https://osf.io/ns6jz/ GitHub Page: https://github.com/doomlab/MeMoBootR    Section  Title  Link  Materials  Person  Year Taught      Installation  JASP - How to Install JASP  https://youtu.</description>
     </item>
     
     <item>
@@ -73,7 +76,7 @@ Course Schedule for a 15-week Fall/Spring Semester: The following table provides
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>buchananlab@gmail.com (statstools.com)</author>
       <guid>/page/natural-language-processing/</guid>
-      <description>Natural Language Processing Coming soon!</description>
+      <description>Natural Language Processing Course description: Web technologies based on text and Natural Language Processing (NLP) are becoming the backbone of analytic solutions for understanding language as text language processing has come to play a central role in the multilingual information society. This course provides a highly accessible introduction to the field of text analytics focusing on processing text, tokenization, entity recognition, classification, and sentiment analysis. The course is intensely practical, it uses R and Python programming languages to perform NLP tasks.</description>
     </item>
     
     <item>
@@ -83,7 +86,7 @@ Course Schedule for a 15-week Fall/Spring Semester: The following table provides
       <author>buchananlab@gmail.com (statstools.com)</author>
       <guid>/page/open-science/</guid>
       <description>Open Science Page description: Tutorials on various packages for R Markdown and reproducible analyses.
- Cite: Buchanan, E. M. (2020, March 15). Reproducible Analyses. https://doi.org/10.17605/OSF.IO/8TVMC OSF Page: https://osf.io/8tvmc/ GitHub Page: https://github.com/doomlab/statsofdoom-files/tree/master/open_science    Section  Title  Link  Materials  Person  Year Taught      Data Screening  Data Screening (2)  https://youtu.be/9tLU0jP53GI  NA  Dr. B  Spring 2015    Graphs  Between Subjects Two Way ANOVA  https://youtu.</description>
+ Cite: Buchanan, E. M. (2020, March 15). Reproducible Analyses. https://doi.org/10.17605/OSF.IO/8TVMC OSF Page: https://osf.io/8tvmc/ GitHub Page: https://github.com/doomlab/statsofdoom-files/tree/master/open_science    Section  Title  Link  Materials  Person  Year Taught      Installation  JASP - How to Install JASP  https://youtu.be/sYw8eG8hoY8  https://github.com/doomlab/statsofdoom-files/tree/master/basics/jasp/guides  Dr. B  Fall 2018    Installation  JASP - How to use JASP with RollApp (2020 Update)  https://youtu.</description>
     </item>
     
     <item>

@@ -1,0 +1,33 @@
+---
+comments: false
+pagetitle: 'Human Language Modeling'
+---
+
+## Human Language Modeling
+
+**Course description:** This course is an introduction to computational methods in empirical linguistic analysis and natural language processing focusing on building models of human language. Topics include vector space and topics models, similarity, deep learning, and information theory network models. This course will explore how to apply statistical techniques to language with a focus on R and Python programming skills.
+
+- **Cite**: Buchanan, E. M. (2020, March 15). Human Language in R (ANLY 540). https://doi.org/10.17605/OSF.IO/K7GVY 
+- **OSF Page**: https://osf.io/k7gvy/
+- **GitHub Page**: https://github.com/doomlab/statsofdoom-files/tree/master/lang_model
+
+```{r echo = F, message = F}
+library(rio)
+library(kableExtra)
+library(dplyr)
+page <- "lang_model"
+
+yt_data <- import(paste0(here::here(), "/no_sync/youtube_updated.xlsx"))
+
+yt_data <- subset(yt_data, page == page)
+```
+
+```{r echo = F, results = 'asis', warning = F}
+kable(yt_data %>% 
+       #filter(program == "SPSS" | program == "na") %>% 
+        filter(order != "extra") %>% 
+        arrange(-desc(as.numeric(order))) %>%
+        select(section, title, link, materials, person, year_taught),
+      col.names = c("Section", "Title", "Link", "Materials", "Person", "Year Taught")) %>% 
+  kable_styling(bootstrap_options = c("hover"), font_size = 13)
+```
