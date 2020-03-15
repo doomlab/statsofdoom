@@ -2,85 +2,67 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pages on Stats of DOOM</title>
-    <link>/page/</link>
+    <link>https://statisticsofdoom.com/page/</link>
     <description>Recent content in Pages on Stats of DOOM</description>
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>buchananlab@gmail.com (statstools.com)</managingEditor>
     <webMaster>buchananlab@gmail.com (statstools.com)</webMaster>
     
-	<atom:link href="/page/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://statisticsofdoom.com/page/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title></title>
-      <link>/page/about/</link>
+      <link>https://statisticsofdoom.com/page/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>buchananlab@gmail.com (statstools.com)</author>
-      <guid>/page/about/</guid>
+      <guid>https://statisticsofdoom.com/page/about/</guid>
       <description>About Stats of DOOM When I originally started posting my videos on YouTube, I never really thought people would be interested in them - minus a few overachieving students. I am glad that I&#39;ve been able to help so many folks! I have taught many statistics courses - you can view full classes by using the Learn tab in the top right. I have also taught cognitive and language courses, some with coding (see the NLP and Language Modeling courses), and some without (see Other Courses).</description>
     </item>
     
     <item>
       <title></title>
-      <link>/page/advanced-statistics/</link>
+      <link>https://statisticsofdoom.com/page/basic-statistics/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>buchananlab@gmail.com (statstools.com)</author>
-      <guid>/page/advanced-statistics/</guid>
-      <description>Advanced Statistics Course Description: This course is a survey course over topics of the use of statistics in psychology, which will cover advanced statistical procedures from ANOVA (between, repeated measures, multivariate), regression (multiple, log linear), and pictures (canonical correlation, multidimensional scaling, factor analysis). Not all analyses are used in teaching the course, as other videos and designs are grouped with this page. You can find the files for these videos in the other folder of the downloadable set.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>/page/basic-statistics/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <author>buchananlab@gmail.com (statstools.com)</author>
-      <guid>/page/basic-statistics/</guid>
+      <guid>https://statisticsofdoom.com/page/basic-statistics/</guid>
       <description>Basic Statistics Course description: Principles and methods of statistics used in psychology; understanding and interpreting psychological data. Typically covers descriptive statistics, hypothesis testing, z-tests, t-tests, ANOVA, correlation, regression, and chi-square analyses.
 Course Schedule for a 15-week Fall/Spring Semester: The following table provides a proposed 15-week schedule for a fall or spring semester. Materials follow the Nolan and Heinzen Statistics for the Behavioral Sciences; however, course materials are also provided from the Aron, Aron, and Coups Statistics for Psychology.</description>
     </item>
     
     <item>
       <title></title>
-      <link>/page/graduate-statistics/</link>
+      <link>https://statisticsofdoom.com/page/human-language-modeling/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>buchananlab@gmail.com (statstools.com)</author>
-      <guid>/page/graduate-statistics/</guid>
-      <description>Graduate Statistics Course Description: Use of the Analysis of Variance (ANOVA) Models and Multivariate Analysis in the design and analysis of psychological experiments. Topics include correlation, regression, t-test, ANOVA (between, repeated, and mixed), mediation, moderation, and exploratory factor analysis. Course Schedule for a 15-week Fall/Spring Semester: The following table provides a proposed 15-week schedule for a fall or spring semester. Materials follow the Field Discovering Statistics using R/SPSS; however, course materials are also provided from the Keppel and Wickens Design and Analysis.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>/page/human-language-modeling/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <author>buchananlab@gmail.com (statstools.com)</author>
-      <guid>/page/human-language-modeling/</guid>
+      <guid>https://statisticsofdoom.com/page/human-language-modeling/</guid>
       <description>Human Language Modeling Coming soon!</description>
     </item>
     
     <item>
       <title></title>
-      <link>/page/med-mod/</link>
+      <link>https://statisticsofdoom.com/page/med-mod/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>buchananlab@gmail.com (statstools.com)</author>
-      <guid>/page/med-mod/</guid>
+      <guid>https://statisticsofdoom.com/page/med-mod/</guid>
       <description>Mediation and Moderation Coming soon!</description>
     </item>
     
     <item>
       <title></title>
-      <link>/page/natural-language-processing/</link>
+      <link>https://statisticsofdoom.com/page/natural-language-processing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>buchananlab@gmail.com (statstools.com)</author>
-      <guid>/page/natural-language-processing/</guid>
+      <guid>https://statisticsofdoom.com/page/natural-language-processing/</guid>
       <description>Natural Language Processing Coming soon!</description>
     </item>
     
     <item>
       <title></title>
-      <link>/page/open-science/</link>
+      <link>https://statisticsofdoom.com/page/open-science/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>buchananlab@gmail.com (statstools.com)</author>
-      <guid>/page/open-science/</guid>
+      <guid>https://statisticsofdoom.com/page/open-science/</guid>
       <description>Open Science Page description:
 This page covers information on our CRAN/Shiny packages, our tutorials on various packages for _R_Markdown, and reproducible analyses.
 All files can be found on our Open Science Component Page.
@@ -89,21 +71,52 @@ All files can be found on our Open Science Component Page.
     
     <item>
       <title></title>
-      <link>/page/other-courses/</link>
+      <link>https://statisticsofdoom.com/page/other-courses/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>buchananlab@gmail.com (statstools.com)</author>
-      <guid>/page/other-courses/</guid>
+      <guid>https://statisticsofdoom.com/page/other-courses/</guid>
       <description>Other Courses Coming soon!</description>
     </item>
     
     <item>
-      <title></title>
-      <link>/page/structural-equation-modeling/</link>
+      <title>advanced-statistics</title>
+      <link>https://statisticsofdoom.com/page/advanced-statistics/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>buchananlab@gmail.com (statstools.com)</author>
-      <guid>/page/structural-equation-modeling/</guid>
-      <description>Structural Equation Modeling Course description: This course will cover an in depth exploration of structural equation modeling. You will learn the basic concepts of SEM and how to model different types of research questions, as well as how to report these models in APA style. Path analysis, confirmatory factor analysis, and multi-group models will be several types of techniques covered. Textbooks Used:
- Required: Beaujean: _Latent Variable Modeling in R_ Tabachnick &amp;amp; Fidell: _Using Multivariate Statistics_ Byrne:_Structural Equation Modeling in Amos_ Brown: _Confirmatory Factor Analysis for Applied Research_ Kline:Principles and Practices of Structural Equation Modeling Navarro: _Learning Statistics in R_ Course Schedule Summer Semester: The following table provides information used for a summer schedule.</description>
+      <guid>https://statisticsofdoom.com/page/advanced-statistics/</guid>
+      <description>Advanced Statistics Course Description: This course is a survey course over topics of the use of statistics in psychology, which will cover advanced statistical procedures from ANOVA (between, repeated measures, multivariate), regression (multiple, log linear), and pictures (canonical correlation, multidimensional scaling, factor analysis). Not all analyses are used in teaching the course, as other videos and designs are grouped with this page. You can find the files for these videos in the other folder of the downloadable set.</description>
+    </item>
+    
+    <item>
+      <title>graduate-statistics</title>
+      <link>https://statisticsofdoom.com/page/graduate-statistics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>buchananlab@gmail.com (statstools.com)</author>
+      <guid>https://statisticsofdoom.com/page/graduate-statistics/</guid>
+      <description>Course Description: Use of the Analysis of Variance (ANOVA) Models and Multivariate Analysis in the design and analysis of psychological experiments. Topics include correlation, regression, t-test, ANOVA (between, repeated, and mixed), mediation, moderation, and exploratory factor analysis.
+Course Schedule for a 15-week Fall/Spring Semester: The following table provides a proposed 15-week schedule for a fall or spring semester. Materials follow the Field Discovering Statistics using R/SPSS; however, course materials are also provided from the Keppel and Wickens Design and Analysis.</description>
+    </item>
+    
+    <item>
+      <title>other-courses</title>
+      <link>https://statisticsofdoom.com/page/other-courses/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>buchananlab@gmail.com (statstools.com)</author>
+      <guid>https://statisticsofdoom.com/page/other-courses/</guid>
+      <description>Other Courses Cognitive Psychology Course Description: (Prerequisite: PSY 121 and 6 additional hours of psychology) Theoretical, empirical, and practical consideration of human memory and cognition. Laboratory will focus on investigation and demonstration of various cognitive phenomena. 3(2-2) S
+Text. Smith, E. &amp;amp; Kosslyn, S. (2006). Cognitive Psychology Mind and Brain. Prentice Hall. ISBN: 0131825089.
+The textbook was chosen to provide an overview of the major topic areas of the course and will serve as a springboard for class lecture and discussion.</description>
+    </item>
+    
+    <item>
+      <title>structural-equation-modeling</title>
+      <link>https://statisticsofdoom.com/page/structural-equation-modeling/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>buchananlab@gmail.com (statstools.com)</author>
+      <guid>https://statisticsofdoom.com/page/structural-equation-modeling/</guid>
+      <description>Structural Equation Modeling Course description: This course will cover an in depth exploration of structural equation modeling. You will learn the basic concepts of SEM and how to model different types of research questions, as well as how to report these models in APA style. Path analysis, confirmatory factor analysis, and multi-group models will be several types of techniques covered.
+Textbooks Used:
+ Required: Beaujean: Latent Variable Modeling in R Tabachnick &amp;amp; Fidell: Using Multivariate Statistics Byrne: Structural Equation Modeling in Amos Brown: Confirmatory Factor Analysis for Applied Research Kline: Principles and Practices of Structural Equation Modeling Navarro: Learning Statistics in R  Course Schedule Summer Semester: The following table provides information used for a summer schedule.</description>
     </item>
     
   </channel>

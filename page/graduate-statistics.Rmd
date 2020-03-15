@@ -1,0 +1,93 @@
+---
+title: "graduate-statistics"
+author: "Erin M. Buchanan"
+date: "3/14/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+**Course Description:** Use of the Analysis of Variance (ANOVA) Models and Multivariate Analysis in the design and analysis of psychological experiments. Topics include correlation, regression, t-test, ANOVA (between, repeated, and mixed), mediation, moderation, and exploratory factor analysis. 
+
+**Course Schedule for a 15-week Fall/Spring Semester:** The following table provides a proposed 15-week schedule for a fall or spring semester. Materials follow the Field _Discovering Statistics using R/SPSS_; however, course materials are also provided from the Keppel and Wickens _Design and Analysis_. Video links from the YouTube channel are attached to match course materials. Years are included when there are multiple versions of the videos - R commands often update, and new videos reflect those changes.
+
+- **Cite**: Buchanan, E. M. (2020, March 15). Graduate Statistics. https://doi.org/10.17605/OSF.IO/X5GNJ 
+- **OSF Page**: https://osf.io/x5gnj/
+- **GitHub Page**: https://github.com/doomlab/statsofdoom-files/tree/master/graduate
+
+```{r echo = F, message = F}
+library(rio)
+library(kableExtra)
+library(dplyr)
+page <- "graduate"
+
+yt_data <- import(paste0(here::here(), "/no_sync/youtube_updated.xlsx"))
+
+yt_data <- subset(yt_data, page == page)
+```
+
+### SPSS & VassarStats
+
+```{r echo = F, results = 'asis', warning = F}
+kable(yt_data %>% 
+        filter(program == "SPSS" | program == "na") %>% 
+        filter(order != "extra") %>% 
+        arrange(-desc(as.numeric(order))) %>%
+        select(section, title, link, materials, person, year_taught),
+      col.names = c("Section", "Title", "Link", "Materials", "Person", "Year Taught")) %>% 
+  kable_styling(bootstrap_options = c("hover"), font_size = 13)
+```
+
+#### Extra Videos
+
+<details>
+
+  <summary>
+  Click to see video list.
+  </summary>
+
+```{r echo = F, results = 'asis', warning = F}
+kable(yt_data %>% 
+        filter(program == "SPSS" | program == "na") %>% 
+        filter(order == "extra") %>% 
+        arrange(desc(section)) %>% 
+        select(section, title, link, materials, person, year_taught),
+      col.names = c("Section", "Title", "Link", "Materials", "Person", "Year Taught")) %>% 
+  kable_styling(bootstrap_options = c("hover"), font_size = 13)
+```
+
+</details>
+
+### *R* 
+
+```{r echo = F, results = 'asis', warning = F}
+kable(yt_data %>% 
+        filter(program == "R" | program == "na") %>% 
+        filter(order != "extra") %>% 
+        arrange(-desc(as.numeric(order))) %>%
+        select(section, title, link, materials, person, year_taught),
+      col.names = c("Section", "Title", "Link", "Materials", "Person", "Year Taught")) %>% 
+  kable_styling(bootstrap_options = c("hover"), font_size = 13)
+```
+
+#### Extra Videos
+
+<details>
+
+  <summary>
+  Click to see video list.
+  </summary>
+
+```{r echo = F, results = 'asis', warning = F}
+kable(yt_data %>% 
+        filter(program == "R" | program == "na") %>% 
+        filter(order == "extra") %>% 
+        arrange(desc(section)) %>% 
+        select(section, title, link, materials, person, year_taught),
+      col.names = c("Section", "Title", "Link", "Materials", "Person", "Year Taught")) %>% 
+  kable_styling(bootstrap_options = c("hover"), font_size = 13)
+```
+
+</details>

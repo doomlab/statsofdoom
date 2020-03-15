@@ -1,0 +1,72 @@
+---
+title: "structural-equation-modeling"
+author: "Erin M. Buchanan"
+date: "3/14/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Structural Equation Modeling
+
+**Course description:** This course will cover an in depth exploration of structural equation modeling.  You will learn the basic concepts of SEM and how to model different types of research questions, as well as how to report these models in APA style.  Path analysis, confirmatory factor analysis, and multi-group models will be several types of techniques covered. 
+
+**Textbooks Used:**
+
+- Required: Beaujean: [_Latent Variable Modeling in R_](http://www.amazon.com/Latent-Variable-Modeling-Using-Step/dp/1848726996)
+- Tabachnick & Fidell: [_Using Multivariate Statistics_](http://www.amazon.com/Using-Multivariate-Statistics-6th-Edition/dp/0205849571)
+- Byrne: [_Structural Equation Modeling in Amos_](http://www.amazon.com/Structural-Equation-Modeling-AMOS-Applications/dp/0805863737)
+- Brown: [_Confirmatory Factor Analysis for Applied Research_](http://www.amazon.com/Confirmatory-Analysis-Research-Methodology-Sciences/dp/1462515363/)
+- Kline: [_Principles and Practices of Structural Equation Modeling_](http://www.amazon.com/Principles-Practice-Structural-Equation-Methodology/dp/1606238760)
+- Navarro: [_Learning Statistics in R_](https://learningstatisticswithr.com/)
+
+**Course Schedule Summer Semester:** The following table provides information used for a summer schedule. Video links from the YouTube channel are attached to match course materials. All videos are recorded using _R_, but several _AMOS_ assignments are included in the downloadable material. 
+
+- **Cite**: Buchanan, E. M. (2020, March 15). Structural Equation Modeling. https://doi.org/10.17605/OSF.IO/2Y67F 
+- **OSF Page**: https://osf.io/2y67f/
+- **GitHub Page**: https://github.com/doomlab/statsofdoom-files/tree/master/sem
+
+```{r echo = F, message = F}
+library(rio)
+library(kableExtra)
+library(dplyr)
+page <- "graduate"
+
+yt_data <- import(paste0(here::here(), "/no_sync/youtube_updated.xlsx"))
+
+yt_data <- subset(yt_data, page == page)
+```
+
+### *R* 
+
+```{r echo = F, results = 'asis', warning = F}
+kable(yt_data %>% 
+        filter(program == "R" | program == "na") %>% 
+        filter(order != "extra") %>% 
+        arrange(-desc(as.numeric(order))) %>%
+        select(section, title, link, materials, person, year_taught),
+      col.names = c("Section", "Title", "Link", "Materials", "Person", "Year Taught")) %>% 
+  kable_styling(bootstrap_options = c("hover"), font_size = 13)
+```
+
+#### Extra Videos
+
+<details>
+
+  <summary>
+  Click to see video list.
+  </summary>
+
+```{r echo = F, results = 'asis', warning = F}
+kable(yt_data %>% 
+        filter(program == "R" | program == "na") %>% 
+        filter(order == "extra") %>% 
+        arrange(desc(section)) %>% 
+        select(section, title, link, materials, person, year_taught),
+      col.names = c("Section", "Title", "Link", "Materials", "Person", "Year Taught")) %>% 
+  kable_styling(bootstrap_options = c("hover"), font_size = 13)
+```
+
+</details>

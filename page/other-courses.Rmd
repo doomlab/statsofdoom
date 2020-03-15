@@ -1,0 +1,50 @@
+---
+title: "other-courses"
+author: "Erin M. Buchanan"
+date: "3/14/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Other Courses
+
+### Cognitive Psychology
+
+**Course Description**: (Prerequisite: PSY 121 and 6 additional hours of psychology) Theoretical, empirical, and practical consideration of human memory and cognition. Laboratory will focus on investigation and demonstration of various cognitive phenomena. 3(2-2) S 
+
+**Text.** Smith, E. & Kosslyn, S. (2006). Cognitive Psychology Mind and Brain. Prentice Hall. ISBN: 0131825089.
+
+The textbook was chosen to provide an overview of the major topic areas of the course and will serve as a springboard for class lecture and discussion. This course covers a wide variety of topic areas, most worthy of their own course. We will not be able to review every topic presented in the text online. You are responsible for all the information in the text as well as the additional information presented online. 
+
+```{r echo = F, message = F}
+library(rio)
+library(kableExtra)
+library(dplyr)
+page <- "cognition"
+
+yt_data <- import(paste0(here::here(), "/no_sync/youtube_updated.xlsx"))
+
+yt_data <- subset(yt_data, page == page)
+```
+
+```{r echo = F, results = 'asis', warning = F}
+kable(yt_data %>% 
+        filter(program == "SPSS" | program == "na") %>% 
+        filter(order != "extra") %>% 
+        arrange(-desc(as.numeric(order))) %>%
+        select(section, title, link, materials, person, year_taught),
+      col.names = c("Section", "Title", "Link", "Materials", "Person", "Year Taught")) %>% 
+  kable_styling(bootstrap_options = c("hover"), font_size = 13)
+```
+
+
+### Psycholinguistics 
+
+**Course Description.** This course is a survey over the topics associated with human use of language.  We will cover some basic linguistics (word frequency, phonemes, sentence structure), but also how the individual person interacts with language.  Topics will include the biological bases of language, speech production and perception, word recognition, sentence processing, reading, discourse, dyslexia, grammar and the lexicon.  This course will cover current theories on these topics, along with ways to experimentally analyze language and psychology.  
+
+**Text.** Harley, Trevor A. The Psychology of Language From Data to Theory. 4th ed. New York: Psychology Press, 2009.  Print.
+
+Psychology and language textbooks have a bad tendency to be 1) boring, 2) expensive, and 3) there are very few of them to choose from.  This textbook was chosen because of its focus on research, fairly cheap price, and easy availability on the internet.  The textbook is recommended, but not required.  You will get the information you need from research and the lecture notes.  However, if you want the book the lecture notes were created from – you can use this textbook.  

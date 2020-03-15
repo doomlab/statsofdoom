@@ -1,30 +1,27 @@
 ---
-comments: false
+title: "advanced-statistics"
+author: "Erin M. Buchanan"
+date: "3/14/2020"
+output: html_document
 ---
 
-## Basic Statistics
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
 
-**Course description**: Principles and methods of statistics used in psychology; understanding and interpreting psychological data. Typically covers descriptive statistics, hypothesis testing, z-tests, t-tests, ANOVA, correlation, regression, and chi-square analyses. 
+## Advanced Statistics
 
-**Course Schedule for a 15-week Fall/Spring Semester:** The following table provides a proposed 15-week schedule for a fall or spring semester. Materials follow the Nolan and Heinzen _Statistics for the Behavioral Sciences_; however, course materials are also provided from the Aron, Aron, and Coups _Statistics for Psychology_. Video links from the YouTube channel are attached to match course materials. Please use the GitHub Repository for most up to date files.
+**Course Description:** This course is a survey course over topics of the use of statistics in psychology, which will cover advanced statistical procedures from ANOVA (between, repeated measures, multivariate), regression (multiple, log linear), and pictures (canonical correlation, multidimensional scaling, factor analysis). Not all analyses are used in teaching the course, as other videos and designs are grouped with this page. You can find the files for these videos in the _other_ folder of the downloadable set. My dummies guides for _R_ and SPSS with write up examples are also included in these folders.
 
-SPSS and R Course Files: 
-
-- **Cite**: Buchanan, E. M. (2020, March 14). Basic Statistics. https://doi.org/10.17605/OSF.IO/E3D9W 
-- **OSF Page**: https://osf.io/e3d9w/
-- **GitHub Page**: https://github.com/doomlab/statsofdoom-files/tree/master/basics
-
-JASP Course Files:
-
-- **Cite**: Buchanan, E. M., Hopke, T. G., & Donaldson, S. (2018, November 27). Undergraduate Statistics with JASP. https://doi.org/10.17605/OSF.IO/T56KG 
-- **OSF Page**: https://osf.io/t56kg/
-- **GitHub Page**: https://github.com/doomlab/statsofdoom-files/tree/master/basics/jasp
+- **Cite**: Buchanan, E. M. (2020, March 14). Advanced Statistics. https://doi.org/10.17605/OSF.IO/DNUYV 
+- **OSF Page**: https://osf.io/dnuyv/
+- **GitHub Page**: https://github.com/doomlab/statsofdoom-files/tree/master/advanced
 
 ```{r echo = F, message = F}
 library(rio)
 library(kableExtra)
 library(dplyr)
-page <- "basics"
+page <- "advanced"
 
 yt_data <- import(paste0(here::here(), "/no_sync/youtube_updated.xlsx"))
 
