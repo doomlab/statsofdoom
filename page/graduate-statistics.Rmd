@@ -1,13 +1,9 @@
 ---
-title: "graduate-statistics"
-author: "Erin M. Buchanan"
-date: "3/14/2020"
-output: html_document
+comments: false
+pagetitle: 'Graduate Statistics'
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
+## Graduate Statistics 
 
 **Course Description:** Use of the Analysis of Variance (ANOVA) Models and Multivariate Analysis in the design and analysis of psychological experiments. Topics include correlation, regression, t-test, ANOVA (between, repeated, and mixed), mediation, moderation, and exploratory factor analysis. 
 

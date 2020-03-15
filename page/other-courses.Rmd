@@ -1,13 +1,7 @@
 ---
-title: "other-courses"
-author: "Erin M. Buchanan"
-date: "3/14/2020"
-output: html_document
+comments: false
+pagetitle: 'Other Courses'
 ---
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
 
 ## Other Courses
 
@@ -32,14 +26,13 @@ yt_data <- subset(yt_data, page == page)
 
 ```{r echo = F, results = 'asis', warning = F}
 kable(yt_data %>% 
-        filter(program == "SPSS" | program == "na") %>% 
+        #filter(program == "SPSS" | program == "na") %>% 
         filter(order != "extra") %>% 
         arrange(-desc(as.numeric(order))) %>%
         select(section, title, link, materials, person, year_taught),
       col.names = c("Section", "Title", "Link", "Materials", "Person", "Year Taught")) %>% 
   kable_styling(bootstrap_options = c("hover"), font_size = 13)
 ```
-
 
 ### Psycholinguistics 
 
@@ -48,3 +41,24 @@ kable(yt_data %>%
 **Text.** Harley, Trevor A. The Psychology of Language From Data to Theory. 4th ed. New York: Psychology Press, 2009.  Print.
 
 Psychology and language textbooks have a bad tendency to be 1) boring, 2) expensive, and 3) there are very few of them to choose from.  This textbook was chosen because of its focus on research, fairly cheap price, and easy availability on the internet.  The textbook is recommended, but not required.  You will get the information you need from research and the lecture notes.  However, if you want the book the lecture notes were created from – you can use this textbook.  
+
+```{r echo = F, message = F}
+library(rio)
+library(kableExtra)
+library(dplyr)
+page <- "psycholing"
+
+yt_data <- import(paste0(here::here(), "/no_sync/youtube_updated.xlsx"))
+
+yt_data <- subset(yt_data, page == page)
+```
+
+```{r echo = F, results = 'asis', warning = F}
+kable(yt_data %>% 
+       # filter(program == "SPSS" | program == "na") %>% 
+        filter(order != "extra") %>% 
+        arrange(-desc(as.numeric(order))) %>%
+        select(section, title, link, materials, person, year_taught),
+      col.names = c("Section", "Title", "Link", "Materials", "Person", "Year Taught")) %>% 
+  kable_styling(bootstrap_options = c("hover"), font_size = 13)
+```

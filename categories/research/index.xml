@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>research on Stats of DOOM</title>
-    <link>https://statisticsofdoom.com/categories/research/</link>
+    <link>/categories/research/</link>
     <description>Recent content in research on Stats of DOOM</description>
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>buchananlab@gmail.com (statstools.com)</managingEditor>
     <webMaster>buchananlab@gmail.com (statstools.com)</webMaster>
     <lastBuildDate>Thu, 05 Dec 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://statisticsofdoom.com/categories/research/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/categories/research/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>The Year of the Thesis</title>
-      <link>https://statisticsofdoom.com/post/2019-in-review/</link>
+      <link>/post/2019-in-review/</link>
       <pubDate>Thu, 05 Dec 2019 00:00:00 +0000</pubDate>
       <author>buchananlab@gmail.com (statstools.com)</author>
-      <guid>https://statisticsofdoom.com/post/2019-in-review/</guid>
+      <guid>/post/2019-in-review/</guid>
       <description>The Year of the Thesis!
 Just wanted to highlight several publications from this year, which were mostly theses from some fabulous young researchers:
  Scofield, J.E., Kostic, B., &amp;amp; Buchanan, E.M. (2019). How the presence of others affects desirability judgments in heterosexual and homosexual participants. Archives of Sexual Behavior, X, XX–XX. doi: 10.1007/s10508-019-01516-w
@@ -26,10 +26,10 @@ Just wanted to highlight several publications from this year, which were mostly 
     
     <item>
       <title>New Publications</title>
-      <link>https://statisticsofdoom.com/post/new-publications-oct-19/</link>
+      <link>/post/new-publications-oct-19/</link>
       <pubDate>Sun, 06 Oct 2019 00:00:00 +0000</pubDate>
       <author>buchananlab@gmail.com (statstools.com)</author>
-      <guid>https://statisticsofdoom.com/post/new-publications-oct-19/</guid>
+      <guid>/post/new-publications-oct-19/</guid>
       <description>Just updated my CV - here&#39;s a few new publications and conferences! The weird thing about the automatic CV updater I wrote is that you can&#39;t really predict what order the same year publications are going to be in - not that it matters in general, but it&#39;s an interesting side effect.
 Also, super proud - both of these are student theses turned papers:
 Maxwell, N.P. &amp;amp; Buchanan, E.M. (2019).Investigating the interaction of direct and in-direct relation on memory judgments and retrieval.</description>
@@ -37,20 +37,20 @@ Maxwell, N.P. &amp;amp; Buchanan, E.M. (2019).Investigating the interaction of d
     
     <item>
       <title>Line Endings Are Dumb</title>
-      <link>https://statisticsofdoom.com/post/line-endings-are-dumb/</link>
+      <link>/post/line-endings-are-dumb/</link>
       <pubDate>Thu, 20 Dec 2018 00:00:00 +0000</pubDate>
       <author>buchananlab@gmail.com (statstools.com)</author>
-      <guid>https://statisticsofdoom.com/post/line-endings-are-dumb/</guid>
+      <guid>/post/line-endings-are-dumb/</guid>
       <description>I have happily acquired a new Mac Book (yay!) and a new work computer (Windows). So, I&#39;ve been making One Drive exceedingly unhappy moving GBs of file from one to another.
 As I was working on reconnecting my GitHub repositories to the files, I was trying to understand why several of my repos were saying I had a bunch of file changes but nothing in the files themselves had changed. I noticed they were mostly .</description>
     </item>
     
     <item>
       <title>New Publications and Updated CV</title>
-      <link>https://statisticsofdoom.com/post/new-publications-and-updated-cv/</link>
+      <link>/post/new-publications-and-updated-cv/</link>
       <pubDate>Fri, 01 Jun 2018 00:00:00 +0000</pubDate>
       <author>buchananlab@gmail.com (statstools.com)</author>
-      <guid>https://statisticsofdoom.com/post/new-publications-and-updated-cv/</guid>
+      <guid>/post/new-publications-and-updated-cv/</guid>
       <description>Hi guys! I just wanted to post that I&#39;ve updated the website to be current with some new publications I wanted to highlight:
 First up is two papers on psycholinguistics that were undergraduate student projects:
 Duncan, J., Buchanan, E.M., Marshall, C.Z., &amp;amp; Oberdieck, K. (accepted). But words will never hurt me, Journal of Psychology and Behavioral Sciences, X, XX-XX. PDF
@@ -59,19 +59,19 @@ Forbes, F.-J., &amp;amp; Buchanan, E. M. (accepted). “Textisms”: The Comfort
     
     <item>
       <title>Current Publications with Papaja</title>
-      <link>https://statisticsofdoom.com/post/current-publications-with-papaja/</link>
+      <link>/post/current-publications-with-papaja/</link>
       <pubDate>Mon, 21 May 2018 00:00:00 +0000</pubDate>
       <author>buchananlab@gmail.com (statstools.com)</author>
-      <guid>https://statisticsofdoom.com/post/current-publications-with-papaja/</guid>
+      <guid>/post/current-publications-with-papaja/</guid>
       <description>Heyo! Frederik, the author of papaja, requested that we update him with papers written with his package. I was like, oh man, like the whole lab?! So, I decided that I could probably make it easy by making a table here. Obviously, this table is current at the moment, as I hope many of the ones under review will get accepted, and I have several others that we will start writing soon.</description>
     </item>
     
     <item>
       <title>Gathering Text from the Web</title>
-      <link>https://statisticsofdoom.com/post/gathering-text-from-the-web/</link>
+      <link>/post/gathering-text-from-the-web/</link>
       <pubDate>Mon, 07 May 2018 00:00:00 +0000</pubDate>
       <author>buchananlab@gmail.com (statstools.com)</author>
-      <guid>https://statisticsofdoom.com/post/gathering-text-from-the-web/</guid>
+      <guid>/post/gathering-text-from-the-web/</guid>
       <description>Hi everyone! I don&#39;t really feel like working too hard today, so I decided to write a blog post about how my student Will and I used rvest to mine articles from several different news sources for a project. All the scripts and current ongoings of this project can be found on our OSF page - this project is also connected to the GitHub folder with the files.
 First, we picked four web sources to scrape - The New York Times, NPR, Fox News, and Breitbart because of their known political associations, and specifically, we focused on their political sections.</description>
     </item>

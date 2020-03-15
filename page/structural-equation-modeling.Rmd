@@ -1,13 +1,7 @@
 ---
-title: "structural-equation-modeling"
-author: "Erin M. Buchanan"
-date: "3/14/2020"
-output: html_document
+comments: false
+pagetitle: 'Structural Equation Modeling'
 ---
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
 
 ## Structural Equation Modeling
 
@@ -32,7 +26,7 @@ knitr::opts_chunk$set(echo = TRUE)
 library(rio)
 library(kableExtra)
 library(dplyr)
-page <- "graduate"
+page <- "sem"
 
 yt_data <- import(paste0(here::here(), "/no_sync/youtube_updated.xlsx"))
 
