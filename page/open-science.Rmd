@@ -5,9 +5,7 @@ pagetitle: 'Open Science'
 
 ## Open Science
 
-**Page description:**
-
-Tutorials on various packages for _R_Markdown_ and reproducible analyses.
+**Page description:** Tutorials on various packages for _R_Markdown_ and reproducible analyses. 
 
 - **Cite**: Buchanan, E. M. (2020, March 15). Reproducible Analyses. https://doi.org/10.17605/OSF.IO/8TVMC 
 - **OSF Page**: https://osf.io/8tvmc/

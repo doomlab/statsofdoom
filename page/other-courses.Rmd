@@ -5,6 +5,10 @@ pagetitle: 'Other Courses'
 
 ## Other Courses
 
+- **Cite**: Buchanan, E. M. (2020, March 15). Other Courses. https://doi.org/10.17605/OSF.IO/CR7BM
+- **OSF Page**: https://osf.io/cr7bm/
+- **GitHub Page**: https://github.com/doomlab/statsofdoom-files/tree/master/other/
+
 ### Cognitive Psychology
 
 **Course Description**: (Prerequisite: PSY 121 and 6 additional hours of psychology) Theoretical, empirical, and practical consideration of human memory and cognition. Laboratory will focus on investigation and demonstration of various cognitive phenomena. 3(2-2) S 

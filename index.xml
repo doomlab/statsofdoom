@@ -197,41 +197,18 @@ Course Schedule for a 15-week Fall/Spring Semester: The following table provides
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>buchananlab@gmail.com (statstools.com)</author>
       <guid>/page/open-science/</guid>
-      <description>Open Science Page description:
-Tutorials on various packages for R_Markdown and reproducible analyses.
+      <description>Open Science Page description: Tutorials on various packages for R_Markdown and reproducible analyses.
  Cite: Buchanan, E. M. (2020, March 15). Reproducible Analyses. https://doi.org/10.17605/OSF.IO/8TVMC OSF Page: https://osf.io/8tvmc/ GitHub Page: https://github.com/doomlab/statsofdoom-files/tree/master/open_science    Section  Title  Link  Materials  Person  Year Taught      Data Screening  Data Screening (2)  https://youtu.be/9tLU0jP53GI  NA  Dr. B  Spring 2015    Graphs  Between Subjects Two Way ANOVA  https://youtu.</description>
     </item>
     
     <item>
       <title></title>
-      <link>/page/open-science/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <author>buchananlab@gmail.com (statstools.com)</author>
-      <guid>/page/open-science/</guid>
-      <description>Open Science Page description:
-This page covers information on our CRAN/Shiny packages, our tutorials on various packages for _R_Markdown, and reproducible analyses.
-All files can be found on our Open Science Component Page.
-[table nl=&amp;quot;~&amp;rdquo; width=&amp;quot;450&amp;rdquo;]Topic, Video MOTE on Github, Link R Tables in Markdown, Link Papaja Part 1 ~Pulling Stats from Chunks, Link Papaja Part 2 ~Formatting Statistics, Link Papaja Part 3 ~Citation Styles, Link [/table]</description>
-    </item>
-    
-    <item>
-      <title></title>
       <link>/page/other-courses/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>buchananlab@gmail.com (statstools.com)</author>
       <guid>/page/other-courses/</guid>
-      <description>Other Courses Cognitive Psychology Course Description: (Prerequisite: PSY 121 and 6 additional hours of psychology) Theoretical, empirical, and practical consideration of human memory and cognition. Laboratory will focus on investigation and demonstration of various cognitive phenomena. 3(2-2) S
-Text. Smith, E. &amp;amp; Kosslyn, S. (2006). Cognitive Psychology Mind and Brain. Prentice Hall. ISBN: 0131825089.
-The textbook was chosen to provide an overview of the major topic areas of the course and will serve as a springboard for class lecture and discussion.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>/page/other-courses/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <author>buchananlab@gmail.com (statstools.com)</author>
-      <guid>/page/other-courses/</guid>
-      <description>Other Courses Coming soon!</description>
+      <description>Other Courses  Cite: Buchanan, E. M. (2020, March 15). Other Courses. https://doi.org/10.17605/OSF.IO/CR7BM OSF Page: https://osf.io/cr7bm/ GitHub Page: https://github.com/doomlab/statsofdoom-files/tree/master/other/  Cognitive Psychology Course Description: (Prerequisite: PSY 121 and 6 additional hours of psychology) Theoretical, empirical, and practical consideration of human memory and cognition. Laboratory will focus on investigation and demonstration of various cognitive phenomena. 3(2-2) S
+Text. Smith, E. &amp;amp; Kosslyn, S. (2006). Cognitive Psychology Mind and Brain. Prentice Hall.</description>
     </item>
     
     <item>
