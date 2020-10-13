@@ -19,15 +19,15 @@ page <- "lang_model"
 
 yt_data <- import(paste0(here::here(), "/no_sync/youtube_updated.xlsx"))
 
-yt_data <- subset(yt_data, page == page)
+yt_data <- yt_data[!is.na(yt_data$lang_model), ]
 ```
 
 ```{r echo = F, results = 'asis', warning = F}
 kable(yt_data %>% 
        #filter(program == "SPSS" | program == "na") %>% 
-        filter(order != "extra") %>% 
-        arrange(-desc(as.numeric(order))) %>%
-        select(section, title, link, materials, person, year_taught),
+        filter(lang_model_order != "extra") %>% 
+        arrange(-desc(as.numeric(lang_model_order))) %>%
+        select(lang_model, title, link, materials, person, year_taught),
       col.names = c("Section", "Title", "Link", "Materials", "Person", "Year Taught")) %>% 
   kable_styling(bootstrap_options = c("hover"), font_size = 13)
 ```

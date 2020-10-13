@@ -30,7 +30,7 @@ page <- "sem"
 
 yt_data <- import(paste0(here::here(), "/no_sync/youtube_updated.xlsx"))
 
-yt_data <- subset(yt_data, page == page)
+yt_data <- yt_data[!is.na(yt_data$sem), ]
 ```
 
 ### *R* 
@@ -38,9 +38,9 @@ yt_data <- subset(yt_data, page == page)
 ```{r echo = F, results = 'asis', warning = F}
 kable(yt_data %>% 
         filter(program == "R" | program == "na") %>% 
-        filter(order != "extra") %>% 
-        arrange(-desc(as.numeric(order))) %>%
-        select(section, title, link, materials, person, year_taught),
+        filter(sem_order != "extra") %>% 
+        arrange(-desc(as.numeric(sem_order))) %>%
+        select(sem, title, link, materials, person, year_taught),
       col.names = c("Section", "Title", "Link", "Materials", "Person", "Year Taught")) %>% 
   kable_styling(bootstrap_options = c("hover"), font_size = 13)
 ```
@@ -56,9 +56,9 @@ kable(yt_data %>%
 ```{r echo = F, results = 'asis', warning = F}
 kable(yt_data %>% 
         filter(program == "R" | program == "na") %>% 
-        filter(order == "extra") %>% 
-        arrange(desc(section)) %>% 
-        select(section, title, link, materials, person, year_taught),
+        filter(sem_order == "extra") %>% 
+        arrange(desc(sem)) %>% 
+        select(sem, title, link, materials, person, year_taught),
       col.names = c("Section", "Title", "Link", "Materials", "Person", "Year Taught")) %>% 
   kable_styling(bootstrap_options = c("hover"), font_size = 13)
 ```
