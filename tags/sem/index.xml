@@ -19,7 +19,7 @@
       <author>buchananlab@gmail.com (statstools.com)</author>
       <guid>/post/quick-and-dirty-categorical-lavaan/</guid>
       <description>I was tagged today on twitter asking about categorical variables in lavaan. I will say I have not done much with categorical predictors either endogenous or exogenous. I did a quick reproducible example of exogenous variables, and I will refer you to the help guide for lavaan here.
-You will need both the lavaan and psych packages to reproduce this code. Ironically, this data is binary outcome data (the epi dataset in psych), which wasn&#39;t intentional, I just knew it was a good dataset to work with to test how to do exogenous categorical variables.</description>
+You will need both the lavaan and psych packages to reproduce this code. Ironically, this data is binary outcome data (the epi dataset in psych), which wasn&amp;rsquo;t intentional, I just knew it was a good dataset to work with to test how to do exogenous categorical variables.</description>
     </item>
     
   </channel>

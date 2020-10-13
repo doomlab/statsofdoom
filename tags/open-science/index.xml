@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>buchananlab@gmail.com (statstools.com)</managingEditor>
     <webMaster>buchananlab@gmail.com (statstools.com)</webMaster>
-    <lastBuildDate>Mon, 21 May 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 12 Oct 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/open-science/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>A Plan for Open Access Updates</title>
+      <link>/post/a-plan-for-open-access-updates/</link>
+      <pubDate>Mon, 12 Oct 2020 00:00:00 +0000</pubDate>
+      <author>buchananlab@gmail.com (statstools.com)</author>
+      <guid>/post/a-plan-for-open-access-updates/</guid>
+      <description>So! Here&amp;rsquo;s the plan we are working on to update everything with official details:
+ JASP + OSKB:  The JASP pages on OSF are all updated: https://osf.io/t56kg/ I have built the structure for the JASP page with the OSKB &amp;hellip; it&amp;rsquo;s still pending as of October 12, but you will be able to find it at this link when they approve it: https://www.oercommons.org/courseware/lesson/73379 In discussions with the OSKB today, we are going to put together a few promotional materials to help everyone find the community including a paper for the JASP materials, a presentation at Midwestern Psychological Association, and a twitter poster for the Society of Teaching of Psychology.</description>
+    </item>
     
     <item>
       <title>Current Publications with Papaja</title>
