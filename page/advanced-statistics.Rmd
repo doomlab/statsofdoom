@@ -30,7 +30,7 @@ yt_data <- yt_data[!is.na(yt_data$advanced), ]
 
 ```{r echo = F, results = 'asis', warning = F}
 kable(yt_data %>% 
-        filter(program == "SPSS" | program == "na") %>% 
+        filter(program == "SPSS" | program == "na" | program == "VassarStats") %>% 
         filter(advanced_order != "extra") %>% 
         arrange(-desc(as.numeric(advanced_order))) %>%
         select(advanced, title, link, materials, person, year_taught),
@@ -48,7 +48,7 @@ kable(yt_data %>%
 
 ```{r echo = F, results = 'asis', warning = F}
 kable(yt_data %>% 
-        filter(program == "SPSS" | program == "na") %>% 
+        filter(program == "SPSS" | program == "na" | program == "VassarStats") %>% 
         filter(advanced_order == "extra") %>% 
         arrange(desc(advanced)) %>% 
         select(advanced, title, link, materials, person, year_taught),
@@ -94,7 +94,7 @@ kable(yt_data %>%
 
 ```{r echo = F, results = 'asis', warning = F}
 kable(yt_data %>% 
-        filter(program == "R" | program == "na") %>% 
+        filter(program == "JASP" | program == "na" | program == "Excel") %>% 
         filter(advanced_order != "extra") %>% 
         arrange(-desc(as.numeric(advanced_order))) %>%
         select(advanced, title, link, materials, person, year_taught),
@@ -112,7 +112,7 @@ kable(yt_data %>%
 
 ```{r echo = F, results = 'asis', warning = F}
 kable(yt_data %>% 
-        filter(program == "R" | program == "na") %>% 
+        filter(program == "JASP" | program == "na" | program == "Excel") %>% 
         filter(advanced_order == "extra") %>% 
         arrange(desc(advanced)) %>% 
         select(advanced, title, link, materials, person, year_taught),

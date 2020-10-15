@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Stats of DOOM</title>
-    <link>https://statisticsofdoom.com/categories/</link>
+    <link>/categories/</link>
     <description>Recent content in Categories on Stats of DOOM</description>
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>buchananlab@gmail.com (statstools.com)</managingEditor>
     <webMaster>buchananlab@gmail.com (statstools.com)</webMaster>
     <lastBuildDate>Mon, 12 Oct 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://statisticsofdoom.com/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>teaching</title>
-      <link>https://statisticsofdoom.com/categories/teaching/</link>
+      <link>/categories/teaching/</link>
       <pubDate>Mon, 12 Oct 2020 00:00:00 +0000</pubDate>
       <author>buchananlab@gmail.com (statstools.com)</author>
-      <guid>https://statisticsofdoom.com/categories/teaching/</guid>
+      <guid>/categories/teaching/</guid>
       <description></description>
     </item>
     
     <item>
       <title>research</title>
-      <link>https://statisticsofdoom.com/categories/research/</link>
+      <link>/categories/research/</link>
       <pubDate>Thu, 05 Dec 2019 00:00:00 +0000</pubDate>
       <author>buchananlab@gmail.com (statstools.com)</author>
-      <guid>https://statisticsofdoom.com/categories/research/</guid>
+      <guid>/categories/research/</guid>
       <description></description>
     </item>
     
