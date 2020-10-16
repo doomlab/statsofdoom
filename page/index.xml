@@ -2,69 +2,69 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pages on Stats of DOOM</title>
-    <link>https://statisticsofdoom.com/page/</link>
+    <link>/page/</link>
     <description>Recent content in Pages on Stats of DOOM</description>
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>buchananlab@gmail.com (statstools.com)</managingEditor>
     <webMaster>buchananlab@gmail.com (statstools.com)</webMaster>
     
-	<atom:link href="https://statisticsofdoom.com/page/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/page/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title></title>
-      <link>https://statisticsofdoom.com/page/about/</link>
+      <link>/page/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>buchananlab@gmail.com (statstools.com)</author>
-      <guid>https://statisticsofdoom.com/page/about/</guid>
+      <guid>/page/about/</guid>
       <description>About Stats of DOOM When I originally started posting my videos on YouTube, I never really thought people would be interested in them - minus a few overachieving students. I am glad that I&amp;rsquo;ve been able to help so many folks! I have taught many statistics courses - you can view full classes by using the Learn tab in the top right. I have also taught cognitive and language courses, some with coding (see the NLP and Language Modeling courses), and some without (see Other Courses).</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://statisticsofdoom.com/page/advanced-statistics/</link>
+      <link>/page/advanced-statistics/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>buchananlab@gmail.com (statstools.com)</author>
-      <guid>https://statisticsofdoom.com/page/advanced-statistics/</guid>
+      <guid>/page/advanced-statistics/</guid>
       <description>Advanced Statistics Course Description: This course is a survey course over topics of the use of statistics in psychology, which will cover advanced statistical procedures from ANOVA (between, repeated measures, multivariate), regression (multiple, log linear), and pictures (canonical correlation, multidimensional scaling, factor analysis). Not all analyses are used in teaching the course, as other videos and designs are grouped with this page. You can find the files for these videos in the other folder of the downloadable set.</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://statisticsofdoom.com/page/basic-statistics/</link>
+      <link>/page/basic-statistics/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>buchananlab@gmail.com (statstools.com)</author>
-      <guid>https://statisticsofdoom.com/page/basic-statistics/</guid>
+      <guid>/page/basic-statistics/</guid>
       <description>Basic Statistics Course description: Principles and methods of statistics used in psychology; understanding and interpreting psychological data. Typically covers descriptive statistics, hypothesis testing, z-tests, t-tests, ANOVA, correlation, regression, and chi-square analyses.
 Course Schedule for a 15-week Fall/Spring Semester: The following table provides a proposed 15-week schedule for a fall or spring semester. Materials follow the Nolan and Heinzen Statistics for the Behavioral Sciences; however, course materials are also provided from the Aron, Aron, and Coups Statistics for Psychology.</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://statisticsofdoom.com/page/graduate-statistics/</link>
+      <link>/page/graduate-statistics/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>buchananlab@gmail.com (statstools.com)</author>
-      <guid>https://statisticsofdoom.com/page/graduate-statistics/</guid>
+      <guid>/page/graduate-statistics/</guid>
       <description>Graduate Statistics Course Description: Use of the Analysis of Variance (ANOVA) Models and Multivariate Analysis in the design and analysis of psychological experiments. Topics include correlation, regression, t-test, ANOVA (between, repeated, and mixed), mediation, moderation, and exploratory factor analysis.
 Course Schedule for a 15-week Fall/Spring Semester: The following table provides a proposed 15-week schedule for a fall or spring semester. Materials follow the Field Discovering Statistics using R/SPSS; however, course materials are also provided from the Keppel and Wickens Design and Analysis.</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://statisticsofdoom.com/page/human-language-modeling/</link>
+      <link>/page/human-language-modeling/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>buchananlab@gmail.com (statstools.com)</author>
-      <guid>https://statisticsofdoom.com/page/human-language-modeling/</guid>
+      <guid>/page/human-language-modeling/</guid>
       <description>Human Language Modeling Course description: This course is an introduction to computational methods in empirical linguistic analysis and natural language processing focusing on building models of human language. Topics include vector space and topics models, similarity, deep learning, and information theory network models. This course will explore how to apply statistical techniques to language with a focus on R and Python programming skills.
  Cite: Buchanan, E. M. (2020, March 15).</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://statisticsofdoom.com/page/med-mod/</link>
+      <link>/page/med-mod/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>buchananlab@gmail.com (statstools.com)</author>
-      <guid>https://statisticsofdoom.com/page/med-mod/</guid>
+      <guid>/page/med-mod/</guid>
       <description>Mediation - Moderation You’ve come to the right place to learn mediation and moderation! This page serves to include the links for the videos from my YouTube Channel that include PROCESS v 2, PROCESS v 3, JASP, and R videos.
  Cite: Buchanan, E. M. (2020, March 15). Mediation - Moderation Examples. https://doi.org/10.17605/OSF.IO/NS6JZ
  OSF Page: https://osf.io/ns6jz/ GitHub Page: https://github.com/doomlab/MeMoBootR    Section  Title  Link  Materials  Person  Year Taught      Mediation  SPSS - Mediation with PROCESSv3 MPA Talk  https://youtu.</description>
@@ -72,49 +72,49 @@ Course Schedule for a 15-week Fall/Spring Semester: The following table provides
     
     <item>
       <title></title>
-      <link>https://statisticsofdoom.com/page/natural-language-processing/</link>
+      <link>/page/natural-language-processing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>buchananlab@gmail.com (statstools.com)</author>
-      <guid>https://statisticsofdoom.com/page/natural-language-processing/</guid>
+      <guid>/page/natural-language-processing/</guid>
       <description>Natural Language Processing Course description: Web technologies based on text and Natural Language Processing (NLP) are becoming the backbone of analytic solutions for understanding language as text language processing has come to play a central role in the multilingual information society. This course provides a highly accessible introduction to the field of text analytics focusing on processing text, tokenization, entity recognition, classification, and sentiment analysis. The course is intensely practical, it uses R and Python programming languages to perform NLP tasks.</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://statisticsofdoom.com/page/open-science/</link>
+      <link>/page/open-science/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>buchananlab@gmail.com (statstools.com)</author>
-      <guid>https://statisticsofdoom.com/page/open-science/</guid>
+      <guid>/page/open-science/</guid>
       <description>Open Science Page description: Tutorials on various packages for R Markdown and reproducible analyses.
  Cite: Buchanan, E. M. (2020, March 15). Reproducible Analyses. https://doi.org/10.17605/OSF.IO/8TVMC OSF Page: https://osf.io/8tvmc/ GitHub Page: https://github.com/doomlab/statsofdoom-files/tree/master/open_science    Section  Title  Link  Materials  Person  Year Taught      FAIR  Creating Open Data Part 1 - Download Data  https://youtu.be/qKRmKzdnZnM  na  Dr. B  Spring 2020    FAIR  Creating Open Data Part 2 - Codebooks  https://youtu.</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://statisticsofdoom.com/page/other-courses/</link>
+      <link>/page/other-courses/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>buchananlab@gmail.com (statstools.com)</author>
-      <guid>https://statisticsofdoom.com/page/other-courses/</guid>
+      <guid>/page/other-courses/</guid>
       <description>Other Courses  Cite: Buchanan, E. M. (2020, March 15). Other Courses. https://doi.org/10.17605/OSF.IO/CR7BM OSF Page: https://osf.io/cr7bm/ GitHub Page: https://github.com/doomlab/statsofdoom-files/tree/master/other/  Cognitive Psychology Course Description: (Prerequisite: PSY 121 and 6 additional hours of psychology) Theoretical, empirical, and practical consideration of human memory and cognition. Laboratory will focus on investigation and demonstration of various cognitive phenomena. 3(2-2) S
 Text. Smith, E. &amp;amp; Kosslyn, S. (2006). Cognitive Psychology Mind and Brain. Prentice Hall.</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://statisticsofdoom.com/page/patreon/</link>
+      <link>/page/patreon/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>buchananlab@gmail.com (statstools.com)</author>
-      <guid>https://statisticsofdoom.com/page/patreon/</guid>
+      <guid>/page/patreon/</guid>
       <description>Support Stats of DOOM If you&amp;rsquo;d love to support the work that I do, you have a few options:
  Watch the videos! The videos have ads, which make me a few cents. Support directly through Patreon: Become a Patron! Patreon allows you to donate to a creator once or monthly. Any little bit helps! I do post updates on Patreon to keep you informed. All materials are open access.   Share the page with others.</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://statisticsofdoom.com/page/structural-equation-modeling/</link>
+      <link>/page/structural-equation-modeling/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>buchananlab@gmail.com (statstools.com)</author>
-      <guid>https://statisticsofdoom.com/page/structural-equation-modeling/</guid>
+      <guid>/page/structural-equation-modeling/</guid>
       <description>Structural Equation Modeling Course description: This course will cover an in depth exploration of structural equation modeling. You will learn the basic concepts of SEM and how to model different types of research questions, as well as how to report these models in APA style. Path analysis, confirmatory factor analysis, and multi-group models will be several types of techniques covered.
 Textbooks Used:
  Required: Beaujean: Latent Variable Modeling in R Tabachnick &amp;amp; Fidell: Using Multivariate Statistics Byrne: Structural Equation Modeling in Amos Brown: Confirmatory Factor Analysis for Applied Research Kline: Principles and Practices of Structural Equation Modeling Navarro: Learning Statistics in R  Course Schedule Summer Semester: The following table provides information used for a summer schedule.</description>

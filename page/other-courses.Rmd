@@ -25,7 +25,8 @@ page <- "cognition"
 
 yt_data <- import(paste0(here::here(), "/no_sync/youtube_updated.xlsx"))
 
-yt_data <- subset(yt_data, page == page)
+yt_data <- subset(yt_data,
+                  !is.na(other) & page == page)
 ```
 
 ```{r echo = F, results = 'asis', warning = F}
@@ -51,7 +52,8 @@ page <- "psycholing"
 
 yt_data <- import(paste0(here::here(), "/no_sync/youtube_updated.xlsx"))
 
-yt_data <- yt_data[!is.na(yt_data$other), ]
+yt_data <- subset(yt_data,
+                  !is.na(other) & page == page)
 ```
 
 ```{r echo = F, results = 'asis', warning = F}
