@@ -56,12 +56,16 @@ kable(yt_data %>%
 
 </details>
 
-### *R* 
+
+### *R* Flipped Class
+
+This course includes the `learnSTATS` package, which can be found at: https://github.com/doomlab/learnSTATS
 
 ```{r echo = F, results = 'asis', warning = F}
 kable(yt_data %>% 
         filter(program == "R" | program == "na") %>% 
         filter(graduate_order != "extra") %>% 
+        filter(page == "gradflip") %>% 
         arrange(-desc(as.numeric(graduate_order))) %>%
         select(graduate, title, link, materials, person, year_taught),
       col.names = c("Section", "Title", "Link", "Materials", "Person", "Year Taught")) %>% 
@@ -80,6 +84,41 @@ kable(yt_data %>%
 kable(yt_data %>% 
         filter(program == "R" | program == "na") %>% 
         filter(graduate_order == "extra") %>% 
+        filter(page == "gradflip") %>% 
+        arrange(desc(graduate)) %>% 
+        select(graduate, title, link, materials, person, year_taught),
+      col.names = c("Section", "Title", "Link", "Materials", "Person", "Year Taught")) %>% 
+  kable_styling(bootstrap_options = c("hover"), font_size = 13)
+```
+
+</details>
+
+### *R* 
+
+```{r echo = F, results = 'asis', warning = F}
+kable(yt_data %>% 
+        filter(program == "R" | program == "na") %>% 
+        filter(graduate_order != "extra") %>% 
+        filter(page != "gradflip" | is.na(page)) %>% 
+        arrange(-desc(as.numeric(graduate_order))) %>%
+        select(graduate, title, link, materials, person, year_taught),
+      col.names = c("Section", "Title", "Link", "Materials", "Person", "Year Taught")) %>% 
+  kable_styling(bootstrap_options = c("hover"), font_size = 13)
+```
+
+#### Extra Videos
+
+<details>
+
+  <summary>
+  Click to see video list.
+  </summary> 
+
+```{r echo = F, results = 'asis', warning = F}
+kable(yt_data %>% 
+        filter(program == "R" | program == "na") %>% 
+        filter(graduate_order == "extra") %>% 
+        filter(page != "gradflip" | is.na(page)) %>% 
         arrange(desc(graduate)) %>% 
         select(graduate, title, link, materials, person, year_taught),
       col.names = c("Section", "Title", "Link", "Materials", "Person", "Year Taught")) %>% 

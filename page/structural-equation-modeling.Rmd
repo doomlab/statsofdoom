@@ -33,12 +33,15 @@ yt_data <- import(paste0(here::here(), "/no_sync/youtube_updated.xlsx"))
 yt_data <- yt_data[!is.na(yt_data$sem), ]
 ```
 
-### *R* 
+### *R* 2020 Update
+
+This update is part of the new `learnSEM` package, which you can find at https://github.com/doomlab/learnSEM. If you need an assignment worked video and do not see it here, scroll down because they were only updated if the assignment updated! 
 
 ```{r echo = F, results = 'asis', warning = F}
 kable(yt_data %>% 
         filter(program == "R" | program == "na") %>% 
         filter(sem_order != "extra") %>% 
+        filter(page == "sem20") %>% 
         arrange(-desc(as.numeric(sem_order))) %>%
         select(sem, title, link, materials, person, year_taught),
       col.names = c("Section", "Title", "Link", "Materials", "Person", "Year Taught")) %>% 
@@ -57,6 +60,7 @@ kable(yt_data %>%
 kable(yt_data %>% 
         filter(program == "R" | program == "na") %>% 
         filter(sem_order == "extra") %>% 
+        filter(page == "sem20") %>%
         arrange(desc(sem)) %>% 
         select(sem, title, link, materials, person, year_taught),
       col.names = c("Section", "Title", "Link", "Materials", "Person", "Year Taught")) %>% 
@@ -64,3 +68,38 @@ kable(yt_data %>%
 ```
 
 </details>
+
+### *R* 
+
+```{r echo = F, results = 'asis', warning = F}
+kable(yt_data %>% 
+        filter(program == "R" | program == "na") %>% 
+        filter(sem_order != "extra") %>% 
+        filter(page != "sem20" | is.na(page)) %>%
+        arrange(-desc(as.numeric(sem_order))) %>%
+        select(sem, title, link, materials, person, year_taught),
+      col.names = c("Section", "Title", "Link", "Materials", "Person", "Year Taught")) %>% 
+  kable_styling(bootstrap_options = c("hover"), font_size = 13)
+```
+
+#### Extra Videos
+
+<details>
+
+  <summary>
+  Click to see video list.
+  </summary>
+
+```{r echo = F, results = 'asis', warning = F}
+kable(yt_data %>% 
+        filter(program == "R" | program == "na") %>% 
+        filter(sem_order == "extra") %>% 
+        filter(page != "sem20" | is.na(page)) %>%
+        arrange(desc(sem)) %>% 
+        select(sem, title, link, materials, person, year_taught),
+      col.names = c("Section", "Title", "Link", "Materials", "Person", "Year Taught")) %>% 
+  kable_styling(bootstrap_options = c("hover"), font_size = 13)
+```
+
+</details>
+

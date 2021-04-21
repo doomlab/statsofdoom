@@ -22,12 +22,70 @@ yt_data <- import(paste0(here::here(), "/no_sync/youtube_updated.xlsx"))
 yt_data <- yt_data[!is.na(yt_data$lang_model), ]
 ```
 
+### *R* and Python
+
 ```{r echo = F, results = 'asis', warning = F}
 kable(yt_data %>% 
        #filter(program == "SPSS" | program == "na") %>% 
         filter(lang_model_order != "extra") %>% 
+        filter(page == "lang20") %>% 
         arrange(-desc(as.numeric(lang_model_order))) %>%
         select(lang_model, title, link, materials, person, year_taught),
       col.names = c("Section", "Title", "Link", "Materials", "Person", "Year Taught")) %>% 
   kable_styling(bootstrap_options = c("hover"), font_size = 13)
 ```
+
+#### Extra Videos
+
+<details>
+
+  <summary>
+  Click to see video list.
+  </summary>
+
+```{r echo = F, results = 'asis', warning = F}
+kable(yt_data %>% 
+       #filter(program == "SPSS" | program == "na") %>% 
+        filter(lang_model_order == "extra") %>% 
+        filter(page == "lang20") %>% 
+        arrange(-desc(as.numeric(lang_model_order))) %>%
+        select(lang_model, title, link, materials, person, year_taught),
+      col.names = c("Section", "Title", "Link", "Materials", "Person", "Year Taught")) %>% 
+  kable_styling(bootstrap_options = c("hover"), font_size = 13)
+```
+
+</details>
+
+### *R*
+
+```{r echo = F, results = 'asis', warning = F}
+kable(yt_data %>% 
+       #filter(program == "SPSS" | program == "na") %>% 
+        filter(lang_model_order != "extra") %>% 
+        filter(page == "lang19") %>% 
+        arrange(-desc(as.numeric(lang_model_order))) %>%
+        select(lang_model, title, link, materials, person, year_taught),
+      col.names = c("Section", "Title", "Link", "Materials", "Person", "Year Taught")) %>% 
+  kable_styling(bootstrap_options = c("hover"), font_size = 13)
+```
+
+#### Extra Videos
+
+<details>
+
+  <summary>
+  Click to see video list.
+  </summary> 
+
+```{r echo = F, results = 'asis', warning = F}
+kable(yt_data %>% 
+       #filter(program == "SPSS" | program == "na") %>% 
+        filter(lang_model_order == "extra") %>% 
+        filter(page == "lang19") %>% 
+        arrange(-desc(as.numeric(lang_model_order))) %>%
+        select(lang_model, title, link, materials, person, year_taught),
+      col.names = c("Section", "Title", "Link", "Materials", "Person", "Year Taught")) %>% 
+  kable_styling(bootstrap_options = c("hover"), font_size = 13)
+```
+
+</details>

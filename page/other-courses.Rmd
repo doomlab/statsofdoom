@@ -32,7 +32,8 @@ yt_data <- subset(yt_data,
 ```{r echo = F, results = 'asis', warning = F}
 kable(yt_data %>% 
         #filter(program == "SPSS" | program == "na") %>% 
-        filter(other_order != "extra") %>% 
+        filter(other_order != "extra") %>%
+        filter(page == "cognition") %>% 
         arrange(-desc(as.numeric(other_order))) %>%
         select(other, title, link, materials, person, year_taught),
       col.names = c("Section", "Title", "Link", "Materials", "Person", "Year Taught")) %>% 
@@ -60,6 +61,7 @@ yt_data <- subset(yt_data,
 kable(yt_data %>% 
        #filter(program == "SPSS" | program == "na") %>% 
         filter(other_order != "extra") %>% 
+        filter(page == "psycholinguistics") %>% 
         arrange(-desc(as.numeric(other_order))) %>%
         select(other, title, link, materials, person, year_taught),
       col.names = c("Section", "Title", "Link", "Materials", "Person", "Year Taught")) %>% 
