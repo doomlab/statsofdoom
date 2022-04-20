@@ -28,7 +28,7 @@ yt_data <- yt_data[!is.na(yt_data$nlp), ]
 kable(yt_data %>% 
        #filter(program == "SPSS" | program == "na") %>% 
         filter(nlp_order != "extra") %>% 
-        filter(page == "nlp20") %>% 
+        filter(page == "nlp22") %>% 
         arrange(-desc(as.numeric(nlp_order))) %>%
         select(nlp, title, link, materials, person, year_taught),
       col.names = c("Section", "Title", "Link", "Materials", "Person", "Year Taught")) %>% 
@@ -46,12 +46,12 @@ kable(yt_data %>%
 ```{r echo = F, results = 'asis', warning = F}
 kable(yt_data %>% 
        #filter(program == "SPSS" | program == "na") %>% 
-        filter(nlp_order == "extra") %>% 
+        # filter(nlp_order == "extra") %>% 
         filter(page == "nlp20") %>% 
         arrange(-desc(as.numeric(nlp_order))) %>%
         select(nlp, title, link, materials, person, year_taught),
       col.names = c("Section", "Title", "Link", "Materials", "Person", "Year Taught")) %>% 
-  kable_styling(bootstrap_options = c("hover"), font_size = 13)
+  kable_styling(bootstrap_options = c("hover"), font_size = 13) 
 ```
 
 </details>

@@ -6,11 +6,7 @@
     <description>Recent content in Pages on Stats of DOOM</description>
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>buchananlab@gmail.com (statstools.com)</managingEditor>
-    <webMaster>buchananlab@gmail.com (statstools.com)</webMaster>
-    
-	<atom:link href="https://statisticsofdoom.com/page/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <webMaster>buchananlab@gmail.com (statstools.com)</webMaster><atom:link href="https://statisticsofdoom.com/page/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
       <link>https://statisticsofdoom.com/page/about/</link>

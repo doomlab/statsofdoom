@@ -7,11 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>buchananlab@gmail.com (statstools.com)</managingEditor>
     <webMaster>buchananlab@gmail.com (statstools.com)</webMaster>
-    <lastBuildDate>Wed, 15 May 2019 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://statisticsofdoom.com/tags/reproducibility/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Wed, 15 May 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://statisticsofdoom.com/tags/reproducibility/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Multilevel Modeling Workshop Materials</title>
       <link>https://statisticsofdoom.com/post/multilevel-modeling-workshop-materials/</link>

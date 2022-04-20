@@ -1,313 +1,185 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>https://statisticsofdoom.com/post/a-plan-for-open-access-updates/</loc>
     <lastmod>2020-10-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://statisticsofdoom.com/categories/</loc>
     <lastmod>2020-10-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://statisticsofdoom.com/tags/open-access/</loc>
     <lastmod>2020-10-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://statisticsofdoom.com/tags/open-science/</loc>
     <lastmod>2020-10-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://statisticsofdoom.com/post/</loc>
     <lastmod>2020-10-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://statisticsofdoom.com/</loc>
     <lastmod>2020-10-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://statisticsofdoom.com/tags/</loc>
     <lastmod>2020-10-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://statisticsofdoom.com/categories/teaching/</loc>
     <lastmod>2020-10-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://statisticsofdoom.com/tags/videos/</loc>
     <lastmod>2020-10-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://statisticsofdoom.com/post/real-updates-patreon-new-videos/</loc>
     <lastmod>2020-03-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://statisticsofdoom.com/tags/updates/</loc>
     <lastmod>2020-03-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://statisticsofdoom.com/post/new-site/</loc>
     <lastmod>2020-02-16T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://statisticsofdoom.com/tags/publication/</loc>
     <lastmod>2019-12-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://statisticsofdoom.com/categories/research/</loc>
     <lastmod>2019-12-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://statisticsofdoom.com/post/2019-in-review/</loc>
     <lastmod>2019-12-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://statisticsofdoom.com/tags/clinical/</loc>
     <lastmod>2019-10-06T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://statisticsofdoom.com/post/new-publications-oct-19/</loc>
     <lastmod>2019-10-06T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://statisticsofdoom.com/tags/psycholinguistics/</loc>
     <lastmod>2019-10-06T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://statisticsofdoom.com/tags/update/</loc>
     <lastmod>2019-10-06T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://statisticsofdoom.com/tags/vita/</loc>
     <lastmod>2019-10-06T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://statisticsofdoom.com/post/multilevel-modeling-workshop-materials/</loc>
     <lastmod>2019-05-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://statisticsofdoom.com/tags/multilevel-models/</loc>
     <lastmod>2019-05-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://statisticsofdoom.com/tags/r/</loc>
     <lastmod>2019-05-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://statisticsofdoom.com/tags/regression/</loc>
     <lastmod>2019-05-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://statisticsofdoom.com/tags/reproducibility/</loc>
     <lastmod>2019-05-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://statisticsofdoom.com/tags/rstudio/</loc>
     <lastmod>2019-05-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://statisticsofdoom.com/tags/statistics/</loc>
     <lastmod>2019-05-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://statisticsofdoom.com/tags/teaching/</loc>
     <lastmod>2019-05-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://statisticsofdoom.com/tags/crlf/</loc>
     <lastmod>2018-12-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://statisticsofdoom.com/tags/github/</loc>
     <lastmod>2018-12-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://statisticsofdoom.com/tags/line-endings/</loc>
     <lastmod>2018-12-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://statisticsofdoom.com/post/line-endings-are-dumb/</loc>
     <lastmod>2018-12-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://statisticsofdoom.com/tags/mac/</loc>
     <lastmod>2018-12-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://statisticsofdoom.com/tags/windows/</loc>
     <lastmod>2018-12-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://statisticsofdoom.com/tags/data-camp/</loc>
     <lastmod>2018-10-29T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://statisticsofdoom.com/tags/datacamp/</loc>
     <lastmod>2018-10-29T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://statisticsofdoom.com/tags/guides/</loc>
     <lastmod>2018-10-29T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://statisticsofdoom.com/tags/how-to/</loc>
     <lastmod>2018-10-29T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://statisticsofdoom.com/tags/jasp/</loc>
     <lastmod>2018-10-29T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://statisticsofdoom.com/post/jasp-videos-guides/</loc>
     <lastmod>2018-10-29T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://statisticsofdoom.com/tags/youtube/</loc>
     <lastmod>2018-10-29T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://statisticsofdoom.com/tags/dummy-coding/</loc>
     <lastmod>2018-07-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://statisticsofdoom.com/tags/lavaan/</loc>
     <lastmod>2018-07-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://statisticsofdoom.com/post/quick-and-dirty-categorical-lavaan/</loc>
     <lastmod>2018-07-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://statisticsofdoom.com/tags/sem/</loc>
     <lastmod>2018-07-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://statisticsofdoom.com/post/new-publications-and-updated-cv/</loc>
     <lastmod>2018-06-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://statisticsofdoom.com/post/current-publications-with-papaja/</loc>
     <lastmod>2018-05-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://statisticsofdoom.com/tags/papaja/</loc>
     <lastmod>2018-05-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://statisticsofdoom.com/tags/research/</loc>
     <lastmod>2018-05-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://statisticsofdoom.com/post/gathering-text-from-the-web/</loc>
     <lastmod>2018-05-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://statisticsofdoom.com/tags/rvest/</loc>
     <lastmod>2018-05-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://statisticsofdoom.com/tags/text-processing/</loc>
     <lastmod>2018-05-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://statisticsofdoom.com/page/about/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://statisticsofdoom.com/page/advanced-statistics/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://statisticsofdoom.com/page/basic-statistics/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://statisticsofdoom.com/page/graduate-statistics/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://statisticsofdoom.com/page/human-language-modeling/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://statisticsofdoom.com/page/med-mod/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://statisticsofdoom.com/page/natural-language-processing/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://statisticsofdoom.com/page/open-science/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://statisticsofdoom.com/page/other-courses/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://statisticsofdoom.com/page/patreon/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://statisticsofdoom.com/page/structural-equation-modeling/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://statisticsofdoom.com/page/</loc>
   </url>
-  
 </urlset>
