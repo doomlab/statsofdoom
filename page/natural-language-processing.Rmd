@@ -15,7 +15,7 @@ pagetitle: 'Natural Language Modeling'
 library(rio)
 library(kableExtra)
 library(dplyr) 
-page <- "nlp"
+page <- "nlp" 
 
 yt_data <- import(paste0(here::here(), "/no_sync/youtube_updated.xlsx"))
 

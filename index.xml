@@ -15,7 +15,7 @@
       <author>buchananlab@gmail.com (statstools.com)</author>
       <guid>https://statisticsofdoom.com/post/a-plan-for-open-access-updates/</guid>
       <description>So! Here&amp;rsquo;s the plan we are working on to update everything with official details:
- JASP + OSKB:  The JASP pages on OSF are all updated: https://osf.io/t56kg/ I have built the structure for the JASP page with the OSKB &amp;hellip; it&amp;rsquo;s still pending as of October 12, but you will be able to find it at this link when they approve it: https://www.oercommons.org/courseware/lesson/73379 In discussions with the OSKB today, we are going to put together a few promotional materials to help everyone find the community including a paper for the JASP materials, a presentation at Midwestern Psychological Association, and a twitter poster for the Society of Teaching of Psychology.</description>
+JASP + OSKB: The JASP pages on OSF are all updated: https://osf.io/t56kg/ I have built the structure for the JASP page with the OSKB &amp;hellip; it&amp;rsquo;s still pending as of October 12, but you will be able to find it at this link when they approve it: https://www.oercommons.org/courseware/lesson/73379 In discussions with the OSKB today, we are going to put together a few promotional materials to help everyone find the community including a paper for the JASP materials, a presentation at Midwestern Psychological Association, and a twitter poster for the Society of Teaching of Psychology.</description>
     </item>
     
     <item>
@@ -46,8 +46,8 @@ I have provided entire courses for you to take yourself, use for your classroom,
       <guid>https://statisticsofdoom.com/post/2019-in-review/</guid>
       <description>The Year of the Thesis!
 Just wanted to highlight several publications from this year, which were mostly theses from some fabulous young researchers:
- Scofield, J.E., Kostic, B., &amp;amp; Buchanan, E.M. (2019). How the presence of others affects desirability judgments in heterosexual and homosexual participants. Archives of Sexual Behavior, X, XX–XX. doi: 10.1007/s10508-019-01516-w
- Maxwell, N.P. &amp;amp; Buchanan, E.M. (2019). Investigating the interaction of direct and indirect relation on memory judgments and retrieval.</description>
+Scofield, J.E., Kostic, B., &amp;amp; Buchanan, E.M. (2019). How the presence of others affects desirability judgments in heterosexual and homosexual participants. Archives of Sexual Behavior, X, XX–XX. doi: 10.1007/s10508-019-01516-w
+Maxwell, N.P. &amp;amp; Buchanan, E.M. (2019). Investigating the interaction of direct and indirect relation on memory judgments and retrieval.</description>
     </item>
     
     <item>
@@ -177,7 +177,7 @@ Course Schedule for a 15-week Fall/Spring Semester: The following table provides
       <author>buchananlab@gmail.com (statstools.com)</author>
       <guid>https://statisticsofdoom.com/page/human-language-modeling/</guid>
       <description>Human Language Modeling Course description: This course is an introduction to computational methods in empirical linguistic analysis and natural language processing focusing on building models of human language. Topics include vector space and topics models, similarity, deep learning, and information theory network models. This course will explore how to apply statistical techniques to language with a focus on R and Python programming skills.
- Cite: Buchanan, E. M.</description>
+Cite: Buchanan, E. M. (2020, March 15).</description>
     </item>
     
     <item>
@@ -187,8 +187,8 @@ Course Schedule for a 15-week Fall/Spring Semester: The following table provides
       <author>buchananlab@gmail.com (statstools.com)</author>
       <guid>https://statisticsofdoom.com/page/med-mod/</guid>
       <description>Mediation - Moderation You’ve come to the right place to learn mediation and moderation! This page serves to include the links for the videos from my YouTube Channel that include PROCESS v 2, PROCESS v 3, JASP, and R videos.
- Cite: Buchanan, E. M. (2020, March 15). Mediation - Moderation Examples. https://doi.org/10.17605/OSF.IO/NS6JZ
- OSF Page: https://osf.io/ns6jz/ GitHub Page: https://github.com/doomlab/MeMoBootR    Section  Title  Link  Materials  Person  Year Taught      Mediation  SPSS - Mediation with PROCESSv3 MPA Talk  https://youtu.</description>
+Cite: Buchanan, E. M. (2020, March 15). Mediation - Moderation Examples. https://doi.org/10.17605/OSF.IO/NS6JZ
+OSF Page: https://osf.io/ns6jz/ GitHub Page: https://github.com/doomlab/MeMoBootR Section Title Link Materials Person Year Taught Mediation SPSS - Mediation with PROCESSv3 MPA Talk https://youtu.</description>
     </item>
     
     <item>
@@ -207,7 +207,7 @@ Course Schedule for a 15-week Fall/Spring Semester: The following table provides
       <author>buchananlab@gmail.com (statstools.com)</author>
       <guid>https://statisticsofdoom.com/page/open-science/</guid>
       <description>Open Science Page description: Tutorials on various packages for R Markdown and reproducible analyses.
- Cite: Buchanan, E. M. (2020, March 15). Reproducible Analyses. https://doi.org/10.17605/OSF.IO/8TVMC OSF Page: https://osf.io/8tvmc/ GitHub Page: https://github.com/doomlab/statsofdoom-files/tree/master/open_science    Section  Title  Link  Materials  Person  Year Taught      FAIR  Creating Open Data Part 1 - Download Data  https://youtu.be/qKRmKzdnZnM  NA  Dr. B  Spring 2020    FAIR  Creating Open Data Part 2 - Codebooks  https://youtu.</description>
+Cite: Buchanan, E. M. (2020, March 15). Reproducible Analyses. https://doi.org/10.17605/OSF.IO/8TVMC OSF Page: https://osf.io/8tvmc/ GitHub Page: https://github.com/doomlab/statsofdoom-files/tree/master/open_science Section Title Link Materials Person Year Taught FAIR Creating Open Data Part 1 - Download Data https://youtu.be/qKRmKzdnZnM NA Dr. B Spring 2020 FAIR Creating Open Data Part 2 - Codebooks https://youtu.be/ae_8DH6R4Ns NA Dr. B Spring 2020 FAIR Creating Open Data Part 2 - Data Dictionaries https://youtu.</description>
     </item>
     
     <item>
@@ -216,8 +216,8 @@ Course Schedule for a 15-week Fall/Spring Semester: The following table provides
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>buchananlab@gmail.com (statstools.com)</author>
       <guid>https://statisticsofdoom.com/page/other-courses/</guid>
-      <description>Other Courses  Cite: Buchanan, E. M. (2020, March 15). Other Courses. https://doi.org/10.17605/OSF.IO/CR7BM OSF Page: https://osf.io/cr7bm/ GitHub Page: https://github.com/doomlab/statsofdoom-files/tree/master/other/  Cognitive Psychology Course Description: (Prerequisite: PSY 121 and 6 additional hours of psychology) Theoretical, empirical, and practical consideration of human memory and cognition. Laboratory will focus on investigation and demonstration of various cognitive phenomena. 3(2-2) S
-Text. Smith, E. &amp;amp; Kosslyn, S. (2006). Cognitive Psychology Mind and Brain.</description>
+      <description>Other Courses Cite: Buchanan, E. M. (2020, March 15). Other Courses. https://doi.org/10.17605/OSF.IO/CR7BM OSF Page: https://osf.io/cr7bm/ GitHub Page: https://github.com/doomlab/statsofdoom-files/tree/master/other/ Cognitive Psychology Course Description: (Prerequisite: PSY 121 and 6 additional hours of psychology) Theoretical, empirical, and practical consideration of human memory and cognition. Laboratory will focus on investigation and demonstration of various cognitive phenomena. 3(2-2) S
+Text. Smith, E. &amp;amp; Kosslyn, S. (2006). Cognitive Psychology Mind and Brain. Prentice Hall. ISBN: 0131825089.</description>
     </item>
     
     <item>
@@ -227,7 +227,7 @@ Text. Smith, E. &amp;amp; Kosslyn, S. (2006). Cognitive Psychology Mind and Brai
       <author>buchananlab@gmail.com (statstools.com)</author>
       <guid>https://statisticsofdoom.com/page/patreon/</guid>
       <description>Support Stats of DOOM If you&amp;rsquo;d love to support the work that I do, you have a few options:
- Watch the videos! The videos have ads, which make me a few cents. Support directly through Patreon: Become a Patron! Patreon allows you to donate to a creator once or monthly. Any little bit helps! I do post updates on Patreon to keep you informed. All materials are open access.   Share the page with others.</description>
+Watch the videos! The videos have ads, which make me a few cents. Support directly through Patreon: Become a Patron! Patreon allows you to donate to a creator once or monthly. Any little bit helps! I do post updates on Patreon to keep you informed. All materials are open access. Share the page with others.</description>
     </item>
     
     <item>
@@ -238,7 +238,7 @@ Text. Smith, E. &amp;amp; Kosslyn, S. (2006). Cognitive Psychology Mind and Brai
       <guid>https://statisticsofdoom.com/page/structural-equation-modeling/</guid>
       <description>Structural Equation Modeling Course description: This course will cover an in depth exploration of structural equation modeling. You will learn the basic concepts of SEM and how to model different types of research questions, as well as how to report these models in APA style. Path analysis, confirmatory factor analysis, and multi-group models will be several types of techniques covered.
 Textbooks Used:
- Required: Beaujean: Latent Variable Modeling in R Tabachnick &amp;amp; Fidell: Using Multivariate Statistics Byrne: Structural Equation Modeling in Amos Brown: Confirmatory Factor Analysis for Applied Research Kline: Principles and Practices of Structural Equation Modeling Navarro: Learning Statistics in R  Course Schedule Summer Semester: The following table provides information used for a summer schedule.</description>
+Required: Beaujean: Latent Variable Modeling in R Tabachnick &amp;amp; Fidell: Using Multivariate Statistics Byrne: Structural Equation Modeling in Amos Brown: Confirmatory Factor Analysis for Applied Research Kline: Principles and Practices of Structural Equation Modeling Navarro: Learning Statistics in R Course Schedule Summer Semester: The following table provides information used for a summer schedule.</description>
     </item>
     
   </channel>
