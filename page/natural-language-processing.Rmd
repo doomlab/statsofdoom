@@ -22,7 +22,20 @@ yt_data <- import(paste0(here::here(), "/no_sync/youtube_updated.xlsx"))
 yt_data <- yt_data[!is.na(yt_data$nlp), ]
 ```
 
-### *R* and Python
+### Python 
+
+```{r echo = F, results = 'asis', warning = F}
+kable(yt_data %>% 
+       #filter(program == "SPSS" | program == "na") %>% 
+        filter(nlp_order != "extra") %>% 
+        filter(page == "nlp23") %>% 
+        arrange(-desc(as.numeric(nlp_order))) %>%
+        select(nlp, title, link, materials, person, year_taught),
+      col.names = c("Section", "Title", "Link", "Materials", "Person", "Year Taught")) %>% 
+  kable_styling(bootstrap_options = c("hover"), font_size = 13)
+```
+
+### *R* and Python 
 
 ```{r echo = F, results = 'asis', warning = F}
 kable(yt_data %>% 

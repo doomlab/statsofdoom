@@ -3,7 +3,7 @@ comments: false
 pagetitle: 'Human Language Modeling'
 ---
 
-## Human Language Modeling
+## Human Language Modeling 
 
 **Course description:** This course is an introduction to computational methods in empirical linguistic analysis and natural language processing focusing on building models of human language. Topics include vector space and topics models, similarity, deep learning, and information theory network models. This course will explore how to apply statistical techniques to language with a focus on R and Python programming skills.
 
@@ -20,6 +20,19 @@ page <- "lang_model"
 yt_data <- import(paste0(here::here(), "/no_sync/youtube_updated.xlsx"))
 
 yt_data <- yt_data[!is.na(yt_data$lang_model), ]
+```
+
+### *R* and Python (updated videos)
+
+```{r echo = F, results = 'asis', warning = F}
+kable(yt_data %>% 
+       #filter(program == "SPSS" | program == "na") %>% 
+        filter(lang_model_order != "extra") %>% 
+        filter(page == "lang22") %>% 
+        arrange(-desc(as.numeric(lang_model_order))) %>%
+        select(lang_model, title, link, materials, person, year_taught),
+      col.names = c("Section", "Title", "Link", "Materials", "Person", "Year Taught")) %>% 
+  kable_styling(bootstrap_options = c("hover"), font_size = 13)
 ```
 
 ### *R* and Python
